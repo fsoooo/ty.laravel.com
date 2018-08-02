@@ -1,0 +1,166 @@
+@media (min-width: 992px) {
+  .section-5 > div {
+    width: 20%;
+  }
+}
+.datetimepicker {
+  max-height: 300px;
+  overflow: auto;
+}
+.section-5 .title {
+  text-align: left;
+}
+.section-5 .num {
+  padding: 26px 0;
+  color: #00a2ff !important;
+}
+.operation {
+  margin: 20px 0;
+}
+.operation .section-item {
+  color: #333;
+  background: #00a2ff;
+}
+.operation .section-item.active {
+  background: #ffae00;
+}
+.modal-dialog {
+  width: auto;
+}
+/*通知详情*/
+.details .title {
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.details li .name {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+.details .default-div {
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 30px;
+  height: 140px;
+}
+#noticeModal .modal-body .iconfont {
+  display: inline-block;
+  width: 84px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#noticeModal .modal-body ul,
+#noticeModal .modal-body li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#noticeModal .modal-body .form_date {
+  float: right;
+  width: 86%;
+}
+#noticeModal .modal-body .iconfont.active {
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+#noticeModal .person {
+  margin-bottom: 20px;
+}
+.modal-content {
+  width: 600px;
+}
+#messModal .modal-content {
+  width: 600px;
+  overflow: initial;
+}
+#messModal .modal-body {
+  min-height: 220px;
+}
+#messModal .left-wrapper li {
+  margin-bottom: 18px;
+}
+#messModal .name {
+  display: inline-block;
+  margin-right: 10px;
+  width: 48px;
+  text-align: right;
+}
+#messModal .icon-tianjia {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #00a2ff;
+  cursor: pointer;
+}
+#messModal select,
+#messModal input {
+  width: 140px;
+  height: 20px;
+  line-height: 20px;
+}
+#messModal textarea {
+  width: 278px;
+}
+#messModal .fl {
+  position: relative;
+}
+#messModal .person-select {
+  display: none;
+  width: 204px;
+  position: absolute;
+  top: 0;
+  left: 87px;
+  z-index: 10;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+#messModal .select-header {
+  overflow: hidden;
+}
+#messModal .select-header .select-item {
+  float: left;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+#messModal .select-header .select-item.active {
+  color: #00a2ff;
+}
+#messModal .select-content {
+  padding: 0 10px;
+}
+#messModal .select-content li {
+  height: 28px;
+  line-height: 28px;
+}
+#messModal .select-content label {
+  display: block;
+}
+#messModal .select-content span {
+  margin-right: 16px;
+}
+#messModal .select-content .iconfont {
+  float: right;
+  font-size: 20px;
+}
+#messModal .person-list {
+  height: 250px;
+}
+#messModal .person-list ul {
+  width: 100%;
+}
+#messModal .tips {
+  color: #fc5555;
+  text-align: center;
+}
+#messModal .modal-footer {
+  text-align: right;
+}

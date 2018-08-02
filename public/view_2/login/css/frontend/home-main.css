@@ -1,0 +1,276 @@
+
+/*主体部分*/
+.main{
+    /*width: 1180px;*/
+    margin: auto;
+    /*padding:0 50px;*/
+
+}
+
+
+.main .main-top{
+    height: 560px;
+    width: 100% ;
+    position: relative;
+}
+
+.main .main-classify{
+    width: 595px;
+    height:378px;
+    position: absolute;
+    top: 30px;
+}
+
+.main .main-top .background-img img{
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+/*主体分类部分开始*/
+/*//分类左侧*/
+.main .main-classify-block{
+    width: 1180px;
+    margin: auto;
+}
+.main .main-classify .main-classify-left{
+    float: left;
+    width: 120px;
+    z-index: 200;
+    background-color: red;
+    height: 378px;
+    background: url("/image/li-bg.png") repeat-y 50% 0%;
+    background-size: 100% 54px;
+}
+.main .main-classify .main-classify-left li{
+    height: 54px;
+    line-height: 53px;
+}
+.main .main-classify .main-classify-left li:hover{
+    cursor: pointer;
+    cursor: hand;
+}
+.li-choose{
+    background-color: white;
+}
+.li-no-choose{
+    background: url("/image/li-bg.png") repeat-x;
+}
+.main .main-classify .main-classify-right{
+    width: 455px;
+    height: 363px;
+    padding-top: 15px;
+    margin-left: 120px;
+    padding-left: 20px;
+    /*padding-left: 140px;*/
+    background-color: white;
+}
+
+.main   .main-right-title{
+    display: block;
+    color: #999999;
+    margin-bottom: 15px;
+    font-size: 14px;
+    height: 14px;
+}
+.main-right-title,.main .main-classify-right .main-classify-type,.main-classify-right .main-hot-words{
+    font-size: 14px;
+}
+.main-right-title,.main .main-classify-right .main-classify-type,.main-classify-right .main-hot-words a{
+    color: #333333;
+}
+.main-hot-words ul li{
+    display: inline-block;
+    width: 100px;
+    height: 33px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+
+/*分类右侧*/
+.main .main-classify-right{
+    position: relative;
+}
+.main .main-classify-right .main-classify-type ul{
+}
+.main .main-classify-right .main-classify-type ul li{
+    display: inline-block;
+    width: 100px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+}
+.main .main-classify-right .main-classify-type ul a{
+    color: #333333;
+}
+.main .main-classify-right .main-classify-type ul li:hover{
+    border: 1px solid #fecd70;
+}
+.main .main-classify-right .main-classify-type ul a:nth-child(2),.main .main-classify-right .main-classify-type ul a:nth-child(6){
+    margin: 0 10px;
+}
+.main .main-classify-right .main-classify-type ul a:nth-child(4),.main .main-classify-right .main-classify-type ul a:nth-child(8){
+    margin-left: 10px;
+}
+
+
+
+
+
+/*.main .main-classify-right .main-classify-hot{*/
+    /*float: left;*/
+/*}*/
+/*.main .main-classify-right .main-hot-title{*/
+    /*margin-top: 5px;*/
+/*}*/
+/*.main .main-classify-right .main-hot-words ul li{*/
+    /*display: inline-block;*/
+    /*margin-bottom: 10px;*/
+    /*font-size: 14px;*/
+    /*height: 14px;*/
+/*}*/
+
+
+.main .main-classify-recommend{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.main .main-classify-recommend .main-recommend-content{
+    margin-bottom: 20px;
+}
+.main .main-classify-recommend .main-recommend-content img{
+    width: 145px;
+    height: 90px;
+    display: inline-block;
+}
+.main .main-classify-right .recommend-content{
+    float: right;
+    height: 90px;
+    width: 250px;
+    padding:0 25px ;
+    position: relative;
+    bottom: 0;
+
+}
+.main .main-classify-right .recommend-content .title{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.main .main-classify-right .recommend-content .content{
+    color: #999999;
+    font-size: 14px;
+}
+.main .main-classify-right .recommend-content .price{
+     position: absolute;
+     bottom: 8px;
+     left:20px;
+    color: #fecd70;
+ }
+.main .main-classify-right .recommend-content .policy{
+    position: absolute;
+    bottom: 0;
+    right:20px;
+    border: 1px solid #fecd70;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fecd70;
+}
+.main .main-classify-right .recommend-content .policy:hover{
+    background-color: #fecd70;
+    color: white;
+}
+/*//主体分类部分结束*/
+/*//主体统计部分开始 main*/
+
+.main .main-statistics-block{
+    width: 100% ;
+    height: 132px;
+    background-color: rgba(51,51,51,0.65);
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    border: 1px solid #000;
+}
+
+.main .main-statistics{
+    height: 132px;
+    width: 1278px;
+    padding: 0 1px;
+    margin: auto;
+}
+.main .main-statistics div{
+    height: 132px;
+    text-align: center;
+    float: left;
+    width: 426px;
+    color: white;
+    margin-top: 28px;
+}
+.main .main-statistics span{
+    display: block;
+}
+.main .main-statistics .main-statistics-count{
+    display: block;
+    font-size: 40px;
+
+}
+.main .main-statistics .main-statistics-name{
+    font-size: 18px;
+}
+
+
+
+
+/*//主体统计部分结束 */
+
+
+
+/*main中部*/
+.main .main-middle{
+    width: 1180px;
+    /*border: 1px solid #000;*/
+    margin: auto;
+    background-color: #EEEEEE;
+    padding:40px 50px;
+}
+
+.main .main-middle .main-middle-content{
+    width: 295px;
+    height: 255px;
+    padding-top: 40px;
+    text-align: center;
+    float: left;
+    background-size:295px 255px;
+    Background-repeat:no-repeat;
+    /*background-color: blue;*/
+}
+
+.main .main-middle .main-middle-content-title{
+    width: 295px;
+    height: 155px;
+    color:black;
+}
+.main .main-middle .main-middle-content-title:hover{
+    background: yellow;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    color:red;
+    padding-top: 100px;
+    margin-top: -40px;
+}
+.main .main-middle .main-middle-content-title:hover span{
+    display: block;
+}
+.main .main-middle img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+body {background: #fff;}
+.mui-scroll-wrapper {top: .9rem;bottom: .9rem;}
+.mui-bar-nav {background: #025a8d;}
+.mui-icon-back,.mui-title {color: rgba(255, 255, 255, .8);}
+.information-wrapper>div{padding: 0 .2rem;}
+.list-wrapper>li{margin-bottom: .16rem;}
+.title{margin-bottom: .16rem;font-size: .24rem;line-height: .6rem;font-weight: bold;border-bottom: 1px solid #dcdcdc;}
+.btn{width: 1.6rem;height: .62rem;line-height: .62rem;font-size: .24rem;color: #fff;background: #00A2FF;}
+.btn-wrapper .btn{width: 1.2rem;}
+.btn-edite{background: #ffad00;}
+.section3{height: .9rem;line-height: .9rem;}
+.section3 .name{font-size: .32rem;font-weight: bold;}
+.section3 .btn-add{margin-top: .14rem;}
+.information-name{margin: .3rem 0;font-size: .32rem;color: #00A2FF;}
+.recognizee-wrapper{line-height: .6rem;}
+.recognizee-wrapper li{border-bottom: 1px solid #dcdcdc;}
+.recognizee-name{font-size: .28rem;font-weight: bold;}
+.recognizee-name span{margin-left: .48rem;font-size: .24rem;color: #adadad;font-weight: normal;}
+.recognizee-title{font-size: .28rem;color: #00A2FF;}
+.recognizee-date{color: #adadad;}
+.fill-wrapper{width: 6.4rem;margin: 1rem auto;height: 9rem;background: #fff;}
+.fill-wrapper .fill-title{height: .8rem;line-height: .8rem;background: #00A2FF;font-size: .32rem;color: #fff;text-align: center;}
+.fill-wrapper ul{padding: 0 .28rem;}
+.fill-wrapper li{height: .9rem;line-height: .9rem;position: relative;border-bottom: 1px solid #dcdcdc;}
+.fill-wrapper li .name{position: absolute;top: 0;left: 0;width: 1.6rem;z-index: 100;font-size: .28rem;color: #313131;}
+.fill-wrapper input{padding-left: 1.85rem;font-size: .28rem;border: none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.fill-wrapper .btn-confirm{display: block;margin: 1.4rem auto;width: 4rem;height: .8rem;line-height: .8rem;}
+.fill-wrapper li .iconfont {position: absolute;top: 0; right: 0;z-index: 1;font-size: .36rem;color: #00a2ff;}
+.buttonbox,.buttonbox .btn-submit{height: .98rem;line-height: .98rem;}
+.buttonbox button[disabled] {background-color: #dddddd;}

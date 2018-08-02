@@ -1,0 +1,25 @@
+.mui-content {
+  color: #adadad;
+  text-align: center;
+}
+.mui-content .iconfont {
+  font-size: 1.6rem;
+  color: #ffae00;
+}
+.mui-content .zbtn {
+  margin-bottom: .2rem;
+  width: 2.6rem;
+  height: .7rem;
+  line-height: .7rem;
+}
+.mui-content .return {
+  display: block;
+  color: #00a2ff;
+}
+.tips-wrapper {
+  margin: 2rem 0 1rem;
+}
+.tips-wrapper .tips {
+  margin-top: .6rem;
+  font-size: .32rem;
+}

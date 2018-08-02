@@ -1,0 +1,103 @@
+body{background: #f7f7f7;}
+a{display: block;}
+/*财务中心首页*/
+.finance .mui-scroll-wrapper{top:7.2rem; bottom: 0;}
+.finance .datas-wrapper{
+	padding: .2rem 0;
+	width: 100%;
+    height: 5rem;
+    background: #fff;
+}
+.finance select {
+    display: block;
+    margin: 0 auto .2rem;
+    width: auto;
+    height: .5rem;
+    line-height: .5rem;
+    border: 1px solid #dbdbdb!important;
+    color: #616161;
+    background: #f4f4f4;
+    padding: 0;
+    padding: 0 .34rem;
+}
+.finance .total{
+	height: .9rem;
+	line-height: .9rem;
+	padding: 0 .2rem;
+	background: #fff;
+}
+.finance .bill-list{background: #fff;}
+.finance .bill-list li{
+	padding: 0 .2rem;
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+.finance .bill-list li:last-child{border-bottom: none;}
+.finance .bill-list span{
+	margin-left: .3rem;
+}
+.finance .bill-list .iconfont{
+	font-size: .3rem;
+	float: right;
+}
+.finance .bill-list .in{
+	color: #00A2FF;
+}
+.finance .bill-list .out{
+	margin-left: 1rem;
+	color: #FFAE00;
+}
+.finance .data{
+	height: 4rem;
+}
+.finance .landscape.data{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	background: #fff;
+}
+.finance .landscape #main{
+	position: absolute;
+	top: .1rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+/*账单详情*/
+.finance-bill .mui-scroll-wrapper{top:3rem; bottom: 0;}
+.finance-bill .header-wrapper{
+	background: #fff;
+}
+.finance-bill .header-wrapper .title{
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .3rem;
+	text-align: center;
+	font-weight: normal;
+}
+.finance-bill .header-wrapper .in-out{
+	width: 101%;
+	overflow: hidden;
+}
+.finance-bill .header-wrapper .in-out span{
+	float: left;
+	width: 50%;
+	height: .8rem;
+	line-height: .8rem;
+	text-align: center;
+	border: 1px solid #dbdbdb;
+	border-bottom: none;
+	margin-left: -1px;
+}
+.finance-bill .tips{height: .6rem;line-height: .6rem;color: #616161; text-align: center;}
+.finance-bill .guarantee-wrapper>li{padding: 0 .3rem;margin-bottom: .2rem;background: #fff;}
+.finance-bill .guarantee-code{height: .54rem;line-height: .54rem;border-bottom: 1px solid #dcdcdc;}
+.finance-bill .status{color: #FFAD00;}
+.finance-bill .guarantee-info{padding: .2rem 0;}
+.finance-bill .guarantee-info div{line-height: 1rem;}
+.finance-bill .guarantee-info p{line-height: .4rem;}
+.finance-bill .guarantee-info .name{color: #919191;}

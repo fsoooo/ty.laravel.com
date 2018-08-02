@@ -1,0 +1,270 @@
+	.main-header-content{width: 290px;margin: 0 auto;padding-top: 120px;}
+	.main-header {height: 656px;background: url(image/bg.png) no-repeat;background-size: 100% 100%;}
+	.main-wrapper{background-color: #fff;}
+	.user-authentication{float: left;padding-left: 20px;margin: 36px 0;}
+	.user-name {margin-bottom: 20px;font-size: 18px;color: #F4F4F4;}
+	.user-info{margin-top: 90px;text-align: center;}
+	.user-info>span:first-child{margin-right: 46px;}
+	.user-info>a{margin-left: 10px;color: #F4F4F4;}
+	.main-bottom {padding: 27px 30px 34px;background: #fff;}
+	.title{margin-bottom: 14px;font-size: 18px;font-weight: bold;}
+	.advantage-wrapper{margin-right: -40px;}
+	.advantage-wrapper>li{float: left;margin-right: 40px;padding: 0 30px;width: 258px;height: 144px;border: 1px solid #d8d7d9;}
+	.advantage-wrapper div{margin: 30px 0 15px;font-size: 18px;text-align: center;}
+	.main-bottom .iconfont {margin-right: 6px;color: #f5a623;}
+	.advantage-wrapper p{font-size: 16px;line-height: 24px;}
+	
+	 /*单选按钮的选中的状态*/
+	.icon-danxuan{
+		color: #00A2FF;
+	}
+	.icon-danxuan1{
+		color: #e4e4e4;
+	}
+	/*表格上面的*/
+	.search-wrapper-l{
+		float: left;
+	}
+	.linestyle{
+		border-bottom: 2px solid #00A2FF;
+		padding-bottom: 10px;
+	}
+	.search-wrapper-l .remind{
+		position: absolute;
+	    top: 96px;
+	    left: 318px;
+	    display: inline-block;
+	    padding: 0 3px;
+	    height: 15px;
+	    line-height: 15px;
+	    font-size: 10px;
+	    border: 1px solid #00A2FF;
+	    border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    color: #00A2FF;
+	}
+	.search-wrapper-l .remind1{
+		position: absolute;
+	    top: 95px;
+	    left:87px;
+	    display: inline-block;
+	    padding: 0 3px;
+	    height: 15px;
+	    line-height: 15px;
+	    font-size: 10px;
+	    border: 1px solid #00A2FF;
+	    border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    color: #00a2ff;
+	}
+	.line{
+		padding: 0 35px;
+	}
+	/*下面的表格的状态*/
+	.main-content .search-contents .cor{
+		color: #ffae00;
+	}
+	.main-content .search-contents .fontsize{
+		font-size: 14px;
+	}
+	.main-content .search-contents .search-wrapper{
+		float: right;
+		overflow: hidden;
+		position: relative;
+	    width: 150px;
+	    height: 40px;
+	    line-height: 40px;
+	    display: inline-block;
+	    border-radius: 4px;
+	    -moz-border-radius: 4px;
+	    -webkit-border-radius: 4px;
+	    -o-border-radius: 4px;
+	    background: #fff;
+	    color: #adadad;
+	    border: none;
+	}
+	.main-content .search-contents .search-wrapper label i{
+		display: inline-block;
+		padding-right: 5px;
+	}
+	/*面包屑的样式*/
+	.menus{
+		color: #00A2FF;
+		margin-bottom: 58px;
+	}
+	.menus a{
+		display: inline-block;
+	}
+	.menus i{
+		display: inline-block;
+		padding: 0px 25px;
+	}
+	/*表格表头的颜色*/
+	.tabel-default th{
+		background: #b2e3ff;
+	}
+	.main-content .search-contents>span:nth-child(1){
+		display: inline-block;
+		height: 40px;
+		line-height: 28px;
+		font-size: 16px;
+		font-family: "微软雅黑";
+	}
+	/*表头的字的颜色*/
+	.main-wrapper .tabel-default thead{
+		color: #fff;
+	}
+	/*表格每列的宽*/
+	.main-wrapper .tabel-default thead tr th:nth-child(1){
+		width: 8%;
+	}
+	.main-wrapper .tabel-default thead tr th:nth-child(2){
+		width: 15%;
+	}
+	.main-wrapper .tabel-default thead tr th:nth-child(3){
+		width: 15%;
+	}
+	.main-wrapper .tabel-default thead tr th:nth-child(4){
+		width: 51%;
+	}
+	.main-wrapper .tabel-default thead tr th:nth-child(5){
+		width: 16%;
+	}
+	.main-wrapper .tabel-default tbody tr td{
+		height: 45px;
+		line-height: 45px;
+		padding: 14px 0;
+	}
+	.main-wrapper .tabel-default tbody {
+		box-shadow: 0px 2px 5px #ccc;
+	}
+	.main-wrapper .tabel-default tbody tr td:nth-child(4)i{
+		display: inline-block;
+		color: red;
+	}
+	.main-wrapper .tabel-default tbody .long i{
+		color:#00A2FF;
+		font-size: 28px;
+	}
+	.main-wrapper .tabel-default tbody .long1 i{
+		color:#e4e4e4;
+		font-size: 28px;
+	}
+	.main-wrapper .tabel-default thead .llong label i{
+		color:#e4e4e4;
+		font-size: 28px;
+	}
+	.main-wrapper .tabel-default tbody .table-info{
+		line-height: 28px;
+	    display: inline-block;
+	    width: 590px;
+	    /*padding: 25px 0;*/
+	    text-align: left;
+	    position: relative;
+	    left: 15px;
+	}
+	/*表格查看详情的样式*/
+	.main-wrapper .tabel-default tbody .table-info .ta-info-i{
+		    /* float: right; */
+	    color: #00A2FF;
+	    cursor: pointer;
+	    position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    line-height: initial;
+	    background: #fff;
+	    padding: 3px 10px;
+	}
+	.main-wrapper .tabel-default tbody .table-info .ta-info-i i{
+		font-size: 16px;
+	}
+	.tabel-default .new-tr td{
+		background: #fff7e5;
+	}
+	.main-content{
+		padding: 28px 28px;
+		background: #fff;
+	}
+	.tabel-default tr{
+		border-color: #fff;
+		border-bottom: 1px solid #e4e4e4;
+		
+	}
+	.search-content{
+		margin-bottom: 10px;
+	}
+	.tabel-default .iconfont{
+		font-size: 18px;
+		/*color: #00a2ff;*/
+	}
+	.tabel-default .iconfont .iconfont{
+		margin-left: 10px;
+	}
+	.tabel-default .icon-duoxuan-weixuan{
+		color: #fff;
+		background: #fff;
+	}
+	/*消息管理的样式*/
+	.main-wrapper{
+		width: 1280px;
+		position: relative;
+	}
+	/*表格左下角的*/
+	.main-wrapper .leftquar{
+		display: inline-block;
+		padding: 50px 7px;
+	    position: absolute;
+	}
+	.main-wrapper .leftquar span{
+		cursor: pointer;
+	}
+	/*表格左下角的删除标记为已读*/
+	.main-wrapper .leftquar .leftquar-info{
+		margin-left: 35px;
+	}
+	/*消息管理的暂无消息的样式*/
+	.main-wrapper .main-content .nonemessage{
+		height: 598px;
+	}
+	.main-wrapper .main-content img{
+		width: 65%;
+		height: 80%;
+		padding: 72px 180px;
+	}
+	/*消息管理的分页的样式*/
+	.pagination {
+	    margin-top: 50px;
+	    text-align: center;
+	    background-color: #fff;
+	}
+	/*已读消息的颜色*/
+	.iccon{
+		float: left;
+		/*margin-top: 28px;*/
+	}
+	/*全选之前的颜色*/
+	.icon-radio_nor{
+		color: #e4e4e4;
+	}
+	/*全选之后的颜色*/
+	.icon-danxuanxuan{
+		color: #00a2ff;
+	}
+	.icon-weidu,.icon-delete{
+		color: #00a2ff;
+	}
+	/*查看详情的样式*/
+	.main-wrapper .tabel-default tbody tr td .unfold{
+		overflow: hidden;
+	    text-overflow: ellipsis;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    -webkit-line-clamp: 2;
+	}
+	table tbody tr:hover {
+	  background: none;
+	}

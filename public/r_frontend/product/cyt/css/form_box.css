@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #EEEEEE;
+}
+.right{
+    /*border: 1px solid red;*/
+    margin-left: 30px;
+    background: white;
+}
+.form_box{
+    background: white;
+    margin-top: 20px;
+    /*border: 1px solid red;*/
+}
+.form_box1{
+    margin: 0 auto;
+    width: 95%;
+    height: 60%;
+    /*border: 1px solid black;*/
+}
+form{
+    margin-top: 30px;
+}
+.geduan{
+}

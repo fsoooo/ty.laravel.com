@@ -1,0 +1,127 @@
+.table-record {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background: #21294c;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.table-record table {
+  width: 100%;
+  color: #aaabb6;
+}
+.table-record th {
+  color: #dfe0e3;
+  font-weight: normal;
+}
+.table-record tr {
+  line-height: 30px;
+}
+.scroll > table {
+  width: 97.6%;
+}
+/*财务中心*/
+.default-div {
+  margin-bottom: 10px;
+}
+.price {
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  vertical-align: sub;
+}
+.left .price {
+  color: #00a2ff;
+}
+.right select {
+  float: right;
+  width: 122px;
+  margin-top: -50px;
+  margin-right: -5%;
+  border: 1px solid #494e6d;
+}
+.income .default-div {
+  padding: 60px 6% 34px;
+  font-size: 14px;
+  color: #aaabb6;
+  overflow: hidden;
+}
+.income .right .price {
+  color: #12d158;
+}
+.expenses .default-div {
+  padding: 0 10px;
+  text-align: center;
+  font-size: 0;
+}
+.expenses .left .select-header .select-item.active {
+  color: #00a2ff;
+}
+.expenses .right .select-header .select-item.active {
+  color: #ffae00;
+}
+.expenses .right .price {
+  color: #ffae00;
+}
+.expenses .today {
+  padding: 20px 0;
+  border-bottom: 1px solid #3a4163;
+  font-size: 14px;
+}
+.expenses .select-header .select-item {
+  font-size: 14px;
+  display: inline-block;
+  width: 50%;
+  font-size: 18px;
+  padding: 20px 0;
+  border-right: 1px solid #3a4163;
+}
+.expenses .select-header .select-item:last-child {
+  border: none;
+}
+.expenses .table-record th:last-child,
+.expenses .table-record td:last-child {
+  text-align: right;
+}
+.expenses .scroll-pane tr:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.select-tab {
+  position: relative;
+  height: 340px;
+  margin-bottom: 10px;
+}
+.select-tab .select-item {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/*详情页*/
+.policy-content {
+  padding: 40px;
+}
+.policy-wrapper {
+  text-align: left;
+}
+.policy-wrapper .policy-list {
+  width: 100%;
+}
+.policy-wrapper .policy-info a {
+  margin-left: 16px;
+}
+.record {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+  background: #21294c;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}

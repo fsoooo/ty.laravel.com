@@ -1,0 +1,92 @@
+	body {background: #fff;}
+			.mui-scroll-wrapper {top: .8rem;bottom: .8rem;}
+			.mui-bar-nav {background: #025a8d;}
+			.mui-icon-back,.mui-title {color: rgba(255, 255, 255, .8);}
+			.mui-table-view-cell:after {background: none;}
+			.mui-scroll-wrapper {top: .9rem;bottom: .98rem;}
+			.buttonsbox .btn-edit {
+			    width: 50%;
+			    border: none;
+			    background: #00a2ff;
+			    color: #fff;
+			}
+			.buttonsbox .btn-back {
+			    width: 50%;
+			    color: #00A2FF;
+			    border: 1px solid #00A2FF;
+			}
+			.form-wrapper{
+				padding: 0;
+			}
+			
+			.form-wrapper .title {
+			    height: .6rem;
+			    line-height: .6rem;
+			    padding: 0 .2rem;
+			    font-weight: bold;
+			    border: none;
+			    background: #f4f4f4;
+			}
+			.form-wrapper li{
+				border: none;
+			}
+			.form-wrapper li .name {
+			    float: left;
+			    width: 26%;
+			}
+			.form-wrapper ul{
+				padding: .2rem;
+			}
+			ul.photos-wrapper{
+				padding: .2rem;
+				margin-right: -.74rem;
+			}
+			.form-wrapper .zbtn{
+				float: initial;
+				margin-top: 0;
+    			vertical-align: middle;
+			}
+			.photos-wrapper li{
+				display: inline-block;
+				margin-right: .74rem;
+				width: 1.8rem;
+				height: 1.4rem;
+			}
+			.mui-popover {
+			    width: 100%;
+			    height: 100%;
+			    background: rgba(0,0,0,.6);
+			    border-radius: 0;
+			}
+			.photo-popover .content{
+
+				padding-top: 2rem;
+			}
+			.photo-popover .iconfont{
+				padding: .4rem;
+				position: absolute;
+				top: 1rem;
+				right: 0;
+			}
+			
+			.product-popover .content{
+				padding: .3rem;
+				width: 90%;
+				background: #fff;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				
+			}
+			.product-popover .content input{
+				height: .9rem;
+				line-height: .9rem;
+				margin-bottom: .2rem;
+				border: 1px solid #ADADAD!important;
+			}
+			.product-popover .zbtn{
+				width: 2.6rem;
+				height: .7rem;
+				line-height: .7rem;
+			}

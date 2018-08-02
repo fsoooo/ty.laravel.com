@@ -1,0 +1,178 @@
+/*沟通列表*/
+.content-record .list-img {
+  margin-right: .1rem;
+  width: .44rem;
+  height: .44rem;
+}
+.content-record .details {
+  margin-bottom: .2rem;
+}
+.content-record .mui-table-view-cell {
+  padding: .2rem!important;
+  font-size: .28rem;
+}
+.content-record .mui-table-view-cell:after {
+  left: 0;
+  right: 0;
+}
+.content-record .mui-table-view-cell .name {
+  font-weight: bold;
+}
+.content-record .mui-table-view-cell .date {
+  float: right;
+  color: #dadada;
+}
+.content-record .mui-table-view-cell .info {
+  color: #adadad;
+  padding: .1rem;
+  background: rgba(0, 162, 255, 0.05);
+}
+.content-record .mui-table-view-cell .iconfont {
+  padding: .8rem .2rem .8rem .4rem;
+  position: absolute;
+  right: 0;
+  z-index: 101;
+}
+.content-record .mask {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+}
+.content-record .icon-weixuanze {
+  color: #fff;
+}
+.content-record .icon-queding {
+  color: #ffae00;
+}
+.content-record .two-button-box button {
+  opacity: 1;
+}
+.content-record .two-button-box .zbtn-positive {
+  background: #fff;
+  color: #00a2ff;
+  border: 1px solid #00a2ff;
+}
+.content-record .two-button-box .zbtn-positive.disabled {
+  color: #fff;
+  background: #d8d7d9;
+  border: none;
+}
+.content-record .mui-indexed-list {
+  height: 100%;
+}
+/*添加沟通记录*/
+#record .weixin .outer-nav {
+  top: 0;
+}
+#record .weixin .outer {
+  padding-top: .7rem!important;
+}
+#record .division {
+  background: #f2faff;
+}
+#record .outer-nav {
+  top: .88rem;
+}
+#record .outer {
+  padding-top: 1.7rem;
+}
+#record .mui-scroll {
+  height: 100%;
+  background: #eff7fb;
+}
+#record .add-wrapper {
+  background: #fff;
+  padding: .2rem;
+  margin: 0 .2rem;
+  border-radius: .2rem;
+}
+#record .add-wrapper h5{
+	  font-size: .28rem;
+    text-align: center;
+   	padding-top: .25rem;
+    font-weight: 700;
+    color: #313131;
+    width: 2.7rem;
+    margin: 0 auto;
+    border-bottom: 2px solid #313131;
+}
+.form-wrapper .icon-delete{
+	float: right;
+}
+#record .list-img {
+  float: left;
+  margin-top: .14rem;
+  margin-right: .2rem;
+  width: .7rem;
+  height: .7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#record li.init-product,
+#record li.import-product {
+  border-bottom: none!important;
+}
+#record .add-wrapper a {
+  display: block;
+  overflow: hidden;
+}
+#record .add-wrapper span {
+  font-size: .2rem;
+  /*color: #b3b3b3;*/
+}
+#record .mui-table-view:before,
+#record .mui-table-view:after {
+  background: none;
+}
+#record .content-wrapper {
+  background: #fff;
+}
+#record .content-wrapper li {
+  height: auto;
+  line-height: .8rem;
+  border-bottom: none!important;
+}
+#record .content-wrapper textarea {
+  margin-top: .2rem;
+  height: 2.5rem;
+  font-size: .24rem;
+}
+#record .mui-control-content {
+  background: #fff;
+}
+#record .form-wrapper li .icon-shanchu1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#record .form-wrapper li .name {
+  width: 20%;
+  color: #333;
+  line-height: 1.2rem;
+}
+#record .tab-wrapper {
+	color: #adadad;
+  height: .8rem;
+  line-height: .76rem;
+  font-size: .28rem;
+  overflow: hidden;
+}
+#record .tab-wrapper a {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+#record .tab-wrapper a.active {
+  border-bottom: 2px solid #00a2ff;
+  color: #00a2ff;
+}
+.cor{
+	color: #FF0000;
+}
+.corl{
+	color: #cfcfcf;
+	margin-right: .3rem;
+}
+.borderline{
+	border-bottom: 1px solid #dcdcdc;
+}

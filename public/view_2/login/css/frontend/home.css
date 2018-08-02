@@ -1,0 +1,103 @@
+
+
+
+/*最外层*/
+.wrap{
+    border: 1px solid #000;
+    width: 1000px;
+    min-width: 1000px;
+    margin: auto;
+    height: 150000px;
+}
+/*顶部*/
+.top{
+    height: 100px;
+    border: 1px solid blue;
+    width: 1000px;
+    position: relative;
+}
+/*toplogo 样式*/
+.top .logo{
+    width: 300px;
+    height: 60px;
+    border: 1px solid #000;
+    position: absolute;
+    top:20px;
+    left:10px;
+}
+/*//头部导航条样式*/
+.top .top-nav{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+/*//top 搜索框样式*/
+.top .search{
+    height: 60px;
+    width: 640px;
+    border: 1px solid #000;
+    position: absolute;
+    right: 10px;
+    top:20px;
+}
+
+
+
+
+
+
+/*顶部结束*/
+/*头部*/
+.head{
+    height: 400px;
+    border: 1px solid green;
+    margin-bottom: 19px;
+}
+/*主体部分*/
+.main{
+    height: 700px;
+    border: 1px solid red;
+    float: left;
+    width: 640px;
+}
+
+/*//导航分类*/
+.main .main-nav{
+
+}
+.main .main-nav ul{
+
+}
+.main .main-nav ul li{
+    float: left;
+    width: 25%;
+    vertical-align: middle;
+    line-height: 48px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+/*//主体信息*/
+.main .main-content{
+    border: 1px solid #000;
+    width: 100%;
+    height: 500px;
+    margin-top: 21px;
+}
+
+
+
+
+
+
+
+/*主体部分结束*/
+
+
+/*//侧边栏*/
+.slider{
+    height: 700px;
+    border: 1px solid #000;
+    float: right;
+    width: 330px;
+}

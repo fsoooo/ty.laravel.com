@@ -1,0 +1,265 @@
+.mui-scroll-wrapper {
+	bottom: .98rem;
+}
+
+.mui-bar-nav {
+	background: rgba(2, 90, 141, .6);
+}
+
+.mui-icon-back,
+.mui-title {
+	color: #fff;
+}
+
+.banner {
+	height: 4.15rem;
+}
+
+.tag-wrapper {
+	padding: .2rem .3rem;
+	font-size: .2rem;
+	color: #535353;
+	background: #fff;
+	letter-spacing: -1px;
+}
+
+.tag-wrapper .iconfont {
+	font-size: .3rem;
+}
+
+.tag-item {
+	margin-right: .16rem;
+}
+
+.content-wrapper {
+	padding: 0 .3rem .3rem;
+	background: #fff;
+	font-size: .28rem;
+}
+
+.content-list>li {
+	line-height: .9rem;
+	border-bottom: 1px solid #dcdcdc;
+	overflow: hidden;
+}
+
+.content-list>li:last-child {
+	border-bottom: none;
+}
+
+.content-list .bold {
+	float: left;
+	width: 2rem;
+	margin-right: .1rem;
+}
+.select-box{
+	float: left;
+	width: 68%;
+}
+.btn-select {
+	position: relative;
+	padding: 0 .14rem;
+	margin-right: .18rem;
+	height: .56rem;
+	line-height: .56rem;
+	border: 1px solid #dcdcdc;
+	font-size: .28rem;
+}
+.btn-select-num{
+	width: .9rem;
+	margin-right: 0;
+}
+.icon-add{
+	color: #00a2ff;
+}
+
+.btn-dropdown {
+	float: right;
+	height: .9rem;
+}
+
+.btn-dropdown>.iconfont {
+	margin-left: .2rem;
+	color: #00a2ff;
+	vertical-align: middle;
+}
+
+.btn-select.label-active {
+	border: 1px solid #00a2ff;
+}
+
+.btn-select.label-active:after {
+	content: '';
+	position: absolute;
+	right: -1px;
+	bottom: -3px;
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid #00a2ff;
+	transform: rotate(45deg);
+}
+.mui-numbox>div{
+	position: relative;
+	height: .7rem;
+}
+.mui-numbox>div:after{
+	content: '';
+	position: absolute;
+	right: 0px;
+    bottom: -2px;
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid #00a2ff;
+	transform: rotate(45deg);
+}
+
+.buttonsbox {
+	box-shadow: 0px 1px 18px 2px rgba(2, 90, 141, .1);
+}
+
+.buttonsbox .btn {
+	font-size: .36rem;
+}
+
+.buttonsbox .btn-pirce {
+	width: 40%;
+	color: #ffae00;
+	border: none;
+}
+
+.buttonsbox .btn-insured {
+	width: 60%;
+	background: #00a2ff;
+	color: #fff;
+	border: none;
+}
+
+.buttonsbox .btn-insured a {
+	color: #fff;
+}
+
+.btn-open {
+	width: 100%;
+	height: .89rem;
+	border: 1px solid #adadad;
+	color: #adadad;
+	text-align: center;
+}
+
+.comment-wrapper {
+	padding: .3rem;
+	background: #fff;
+}
+
+.comment-header {
+	border-bottom: 1px solid #dcdcdc;
+	padding-bottom: .18rem;
+	margin-bottom: .2rem;
+	font-size: .28rem;
+	color: #141414;
+}
+.comment-header .fr {
+	font-size: .22rem;
+}
+
+
+/*投保须知*/
+.noticePopover .icon-guanbi{
+	top: 1.2rem;
+}
+.notice-wrapper {
+	position: relative;
+	margin: 2.1rem auto;
+	width: 6.2rem;
+	height: 9.22rem;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.notice-wrapper .mui-scrollbar-indicator{
+	background: #0062CC;
+}
+
+
+.notice-content{
+	height: 8.5rem;
+}
+.noticePopover .mui-scroll-wrapper {
+	padding: .46rem;
+	background: #fff;
+	top: .7rem;
+	margin: 0;
+	border-radius: 0;
+	bottom: 0;
+}
+.notice-list{
+	padding-right: .92rem;
+	color: #313131;
+    text-align: justify;
+}
+.notice-list li{
+	line-height: 1.6;
+}
+
+.notice-button {
+	width: 4.58rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.notice-button-wrapper{
+	position: fixed;
+    width: 100%;
+    bottom: .62rem;
+    left: 0;
+    text-align: center;
+}
+.notice-button-wrapper .btn{
+	height: .8rem;
+	line-height: .8rem;
+	border-radius: 12px;
+}
+.notice-button-wrapper .btn-agree{
+	color: #fff;
+	border: 1px solid #FFAE00;
+	color: #FFAE00;
+	background: transparent;
+}
+.btn-have,.btn-health{
+	width: 1.6rem;
+}
+.btn-have{
+	margin-right: .8rem;
+	color: #FFAE00;
+	font-size: .24rem;
+	border: 1px solid #FFAE00;
+	background: transparent;
+}
+.btn-health{
+	margin-left: .8rem;
+	color: #fff;
+	background: #FFAE00;
+}
+.pickerfour{
+    line-height: 1rem;
+    position: relative;
+    border-bottom: 1px solid #dcdcdc;
+}
+#date{
+	position: absolute;
+	padding: 0;
+	height: .9rem;
+	font-size: .28rem;
+	border: none;
+}
+.pickerfour .iconfont {
+	position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    font-size: .36rem;
+    color: #00a2ff;
+}

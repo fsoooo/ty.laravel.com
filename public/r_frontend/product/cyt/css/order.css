@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 90%;
+    float: left;
+    border: 1px solid red;
+    position: relative;
+}
+.order_box{
+    border: 1px solid #CCCCCC;
+    height: 220px;
+    margin-bottom: 10px;
+    /*float: left;*/
+    /*position: relative;*/
+}
+.left{
+    height: 200px;
+    /*border: 1px solid black;*/
+    width: 40%;
+    position: relative;
+}
+.goods {
+    height: 150px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+.goodsName{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 20px 20px 10px;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+.math{
+    height: 40px;
+    font-size: 15px;
+    left: 300px;
+    top: 120px;
+    position: absolute;
+}
+.right{
+    /*border: 1px solid red;*/
+    width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.holder{
+    height: 60%;
+    width: 20%;
+    /*border: 1px solid yellow;*/
+    margin-top: 20px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.name{
+    margin-left: 80px;
+    font-size: 18px;
+}
+.phone{
+    font-size: 20px;
+    font-weight: bold;
+}
+.number{
+    margin-left: 80px;
+    font-size: 18px;
+}
+.insured{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+.text{
+    margin-left: 20px;
+}
+.money{
+    position: absolute;
+    top:50px;
+    right: 150px;
+    font-size: 20px;
+    background: #d43f3a;
+    border-radius: 5px;
+    padding: 5px 10px 5px;
+}
+.go{
+    /*position: relative;*/
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: greenyellow;
+    border-radius: 5px;
+}

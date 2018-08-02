@@ -1,0 +1,106 @@
+select {
+  margin-bottom: 20px;
+}
+.datas-wrapper {
+  position: relative;
+  margin-bottom: 200px;
+  height: 400px;
+  background: url(../img/performance-bg.png) no-repeat;
+}
+.datas-wrapper .datas {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  padding: 20px;
+  width: 800px;
+  height: 360px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 0 1px 20px 6px rgba(0, 194, 255, 0.2);
+}
+.datas-wrapper .text {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+.datas-wrapper .text span {
+  margin-left: 20px;
+}
+.datas-wrapper .text .red {
+  font-size: 16px;
+  font-weight: bold;
+}
+.datas-list .info,
+.datas-list .details {
+  height: 50px;
+  line-height: 50px;
+}
+.datas-list .info {
+  font-size: 0;
+}
+.datas-list .info span {
+  display: inline-block;
+  margin-left: -1px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.datas-list .info span:nth-child(1) {
+  width: 226px;
+}
+.datas-list .info span:nth-child(2) {
+  width: 204px;
+}
+.datas-list .info span:nth-child(3) {
+  width: 208px;
+}
+.datas-list .info span:nth-child(4) {
+  width: 208px;
+}
+.datas-list .info span:nth-child(5) {
+  width: 208px;
+}
+.datas-list .info .iconfont {
+  display: inline-block;
+  color: #00a2ff;
+  cursor: pointer;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.datas-list .info .iconfont.active {
+  transform: rotate(0);
+  -ms-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -o-transform: rotate(0);
+  transition: all .4s;
+  -ms-transition: all .4s;
+  -moz-transition: all .4s;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+}
+.datas-list .title span {
+  border-color: #00a2ff;
+  color: #fff;
+  background: #00a2ff;
+}
+.datas-list .details {
+  display: none;
+  background: #f4f4f4;
+}
+.datas-list .details span {
+  display: inline-block;
+  padding: 0 26px;
+  margin-right: 12px;
+}

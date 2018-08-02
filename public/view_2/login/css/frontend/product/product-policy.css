@@ -1,0 +1,210 @@
+
+
+.main{
+    background-color: #EEEEEE;
+}
+.main .label_important{
+    color: #f45f20;
+}
+.main .main-block{
+    width: 1180px;
+    margin: auto;
+
+    padding: 45px 50px 0 50px;
+}
+/*//左侧*/
+.main .main-block .main-left{
+    background-color: #fbfbfb;
+    width: 850px;
+    padding: 20px 0 0px 20px;
+    float: left;
+}
+
+
+.main .main-left .relation,.main .main-left .policy-message,.main .main-left .recognizee-message{
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 35px;
+}
+
+.main .main-left .relation .main-left-inform{
+    font-size: 14px;
+    color: #666666;
+}
+
+.main .main-left .input-block{
+    margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
+}
+.main .main-left input{
+    border: 1px solid #CCCCCC;
+}
+.main .main-left label{
+    vertical-align: middle;
+    width: 160px;
+    text-align: right;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #333333;
+
+}
+.main .main-left .common-input{
+    width: 201px;
+    height: 35px;
+    vertical-align: middle;
+    margin-left: 51px;
+    padding-left: 5px;
+}
+
+.main .main-left .main-left-message-title{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.main .main-left .email-input{
+    width: 400px;
+    padding-left: 5px;
+}
+.main .main-left .code-select{
+    width: 131px;
+}
+.main .main-left .code-input{
+    width: 206px;
+    height: 35px;
+    margin-left: 1px;
+}
+.main .main-left .default-connect input{
+    margin-left: 55px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.main .main-left .default-connect span{
+    font-size: 14px;
+    color: #666666;
+    vertical-align: middle;
+}
+
+select{
+    border: 1px solid #ccc;
+}
+
+
+.main .main-left .main-left-message-title img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    vertical-align: middle;
+}
+.main .main-left .main-left-message-title span{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.main .main-left .policy-confirm{
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+.main .main-left .policy-confirm a{
+    color: #00a2ff;
+}
+.main .main-left .policy-confirm input{
+    vertical-align: middle;
+}
+.main .main-left .policy-confirm span{
+    vertical-align: middle;
+}
+
+.main .main-left .policy-submit{
+    margin-top: 50px;
+    text-align: center;
+}
+.main .main-left .policy-submit input{
+    width: 210px;
+    height: 60px;
+    background-color: #fecd70;
+    color: white;
+    font-size: 18px;
+    cursor: hand;
+    cursor: pointer;
+}
+.main .main-left .policy-submit span{
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+
+.main .main-left .policy-submit span a:hover{
+ color: #fecd70;
+
+}
+.main .main-right{
+    float: right;
+    width: 290px;
+    background-color: whitesmoke;
+}
+.main .main-right .main-right-top{
+    padding: 30px 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.main .main-right .main-right-logo{
+    margin-bottom: 40px;
+    border: 1px solid #000;
+}
+.main .main-right .main-right-company{
+    font-size: 18px;
+    color: #333333; 
+}
+
+.main .main-right-middle{
+    padding: 30px 20px 0px 20px;
+    background-color: #fbfbfb;
+}
+.main .main-right .main-right-middle .detail{
+    margin-bottom: 10px;
+}
+.main .main-right .main-right-middle .detail-title{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #333;
+    margin-bottom: 10px;
+    float: left;
+}
+.main .main-right .main-right-middle .detail-content{
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+    float: right;
+}
+.main .main-right .main-right-middle .price,.main .main-right .main-right-middle .number{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+}
+.main .main-right .main-right-middle .name{
+    float: left;
+}
+.main .main-right .main-right-middle .count{
+    float: right;
+    right: 10px;
+}
+
+
+
+.main .main-right .main-right-middle .sum{
+    border-top: 1px solid #e5e5e5;
+    line-height: 100px;
+}
+.main .main-right .main-right-middle .sum .name{
+    bottom: 0;
+}
+.main .main-right .main-right-middle .sum .count{
+    font-size: 36px;
+    color: #fecd70;
+    right: 10px;
+}
+

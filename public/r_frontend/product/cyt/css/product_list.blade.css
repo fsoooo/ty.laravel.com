@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 1px solid #CCCCCC;
+    padding-bottom: 20px;
+    /*position: relative;*/
+}
+.logo{
+    /*border: 1px solid black;*/
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 200px;
+}
+.title{
+    /*border: 1px solid yellow;*/
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content{
+    /*border: 1px solid black;*/
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.content_fa{
+    /*border: 1px solid red;*/
+    padding-bottom: 20px;
+}
+.sign{
+    /*border: 1px solid red;*/
+}
+.argument{
+    /*border: 1px solid red;*/
+    margin: 0 ;
+    padding: 0;
+    border-radius: 5px;
+    text-align: center  ;
+    background: #CCCCCC;
+    padding-bottom: 5px ;
+    padding-top: 5px;
+}
+.value{
+    text-align: center;
+}

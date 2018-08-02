@@ -1,0 +1,310 @@
+/*产品列表*/
+
+
+
+
+.main .main-top{
+    width: 1180px;
+    background: #EEEEEE;
+    height: 280px;
+    border: 1px solid #000;
+    margin: auto;
+    padding:  20px 50px 0px 50px;
+    position: relative;
+}
+
+.main .main-top-nav{
+    font-size: 12px;
+    color: #333333;
+    height: 12px;
+    border: 1px solid #000;
+}
+
+.main .main-top-nav .home{
+    text-align: left;
+
+}
+
+
+.main .main-top .main-top-content{
+    height: 100px;
+    margin-top: 23px;
+}
+
+
+.main .main-top .main-top-content .main-top-content-total{
+    height: 55px;
+    padding: 10px 10px 0 10px;
+    width: 263px;
+}
+
+
+.main .main-top .main-top-content ul li{
+    float: left;
+    margin-right: 16px;
+}
+.main .main-top .main-top-content ul li:nth-child(4n){
+    margin-right: 0;
+}
+
+.main .main-top .main-top-content img{
+    width: 283px;
+    height: 160px;
+}
+.main .main-top .main-top-content li .main-top-content-title{
+    display: block;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+    overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+.main .main-top .main-top-content li .main-top-content-content{
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+}
+
+/*//main top 结束*/
+
+
+/*main list开始*/
+.main .main-list{
+    width: 1180px;
+    margin: auto;
+    padding: 30px 50px 0 50px;
+    border: 1px solid #000;
+}
+
+.main .main-list-left{
+    float: left;
+    width: 830px;
+}
+
+.main .main-list .main-list-title{
+    font-size: 14px;
+    height: 14px;
+    margin-bottom: 30px;
+}
+
+.main .main-list .main-list-title .main-list-title-name{
+    color: #333333;
+}
+
+.main .main-list .main-list-title .main-list-title-count{
+    color: #666666;
+}
+
+.main .main-list .main-list-classify{
+    font-size: 14px;
+    height: 14px;
+    color: #333333;
+}
+.main .main-list .main-list-classify .main-list-classify-name{
+    color: #666666;
+}
+
+.main .main-list .main-list-soft{
+    margin-top: 30px;
+    height: 50px;
+    padding-left: 30px;
+    color: #333333;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.main .main-list .main-list-soft .main-list-soft-name{
+    line-height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+.main .main-list .main-list-soft .main-list-soft-content{
+    float: left;
+}
+.main .main-list-soft .main-list-soft-content ul{
+
+}
+.main .main-list-soft .main-list-soft-content ul li{
+    float: left;
+    margin-top: 10px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+
+.main .main-list-soft  .main-soft-default{
+    width: 40px;
+}
+.main .main-list-soft  .main-soft-sale,.main .main-list-soft  .main-soft-price,.main .main-list-soft  .main-soft-score{
+    width: 60px;
+}
+.main .main-list-soft  .main-soft-time{
+    width: 85px;
+}
+
+
+.main .main-list-content{
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.main .main-list-content .main-list-content-left{
+    padding: 25px 0 0 30px;
+    border: 1px solid #CCCCCC;
+    border-right: 0px solid #000;
+    width: 550px;
+    float: left;
+    position: relative;
+}
+.main .main-list-content .main-list-content-left-title span{
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 18px;
+    float: left;
+    width: 400px;
+    border: 1px solid red;
+}
+.main .main-list-content .main-list-content-left-logo{
+    float: right;
+    width: 64px;
+    height: 30px;
+    border: 1px solid #000;
+    margin-right: 76px;
+}
+
+.main .main-list-content-left-classify{
+    margin-bottom: 30px;
+}
+.main .main-list-content-left-classify ul li{
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 10px;
+}
+
+.main .main-list-content-left-tariff{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.main .main-list-content-left-tariff .tariff-name{
+
+}
+.main .main-list-content-left-tariff .tariff-price{
+    position: absolute;
+    left: 280px;
+}
+
+.main .main-list-content-left-remark .remark{
+    float: left;
+    line-height: 24px;
+    height: 24px;
+    margin-bottom: 64px;
+}
+.main .main-list-content-left-remark .remark .remark-img{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #000;
+}
+.main .main-list-content-left-remark .remark .remark-content{
+    font-size: 14px;
+    color: #333333;
+    border: 1px solid #000;
+    float: left;
+    margin-right: 20px;
+
+}
+
+
+.main .main-list-content .main-list-content-right{
+    width: 250px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #CCCCCC;
+    min-height: 330px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.main .main-list-content-right .main-list-content-right-price{
+    margin-top: 46px;
+    color: #fecd70;
+    margin-bottom: 20px;
+}
+.main .main-list-content-right .main-list-content-right-price .price-unit{
+    font-size: 18px;
+}
+.main .main-list-content-right .main-list-content-right-price .price-count{
+    font-size: 30px;
+}
+.main  .main-list-content-right-warranty{
+    font-size: 14px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #f13c20;
+    margin: 0 auto 20px auto;
+}
+.main .main-list-content-right-sale{
+    color: #333333;
+}
+.main .main-list-content-right-comment{
+    margin-bottom: 30px;
+}
+
+.main .main-list-content-right-contrast{
+    height: 15px;
+    line-height: 15px;
+}
+.main .main-list-content-right-contrast input{
+    height: 15px;
+    width: 15px;
+    line-height: 25px;
+}
+.main .main-list-content-right-contrast span{
+    height: 15px;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+
+
+
+.main .main-list-right{
+    float: left;
+    width: 320px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.main .main-list-right-title{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.main .main-list-right-content{
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.main .main-list-right-list span{
+    display: block;
+    padding: 25px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
+
+
+

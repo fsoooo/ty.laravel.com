@@ -1,0 +1,68 @@
+.box{
+    /*border: 1px solid red;*/
+}
+.top{
+    /*border: 1px solid greenyellow;*/
+    height: 80px;
+}
+.top_left{
+    /*border: 1px solid red;*/
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.top_right{
+
+}
+.top_right img{
+    width: 150px;
+}
+.underTop{
+    /*border: 1px solid black;*/
+    height: 70px;
+}
+.underTop_son{
+    /*border: 1px solid red;*/
+    height: 60px;
+    text-align: center;
+    /*line-height: 60px;*/
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 20px 10px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.middle{
+    /*border: 1px solid green;*/
+    margin-top: 30px;
+}
+.middle input{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    background: white;
+    /*border: none;*/
+}
+.title{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.checked{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.money{
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.go{
+    height: 50px;
+    text-align: center;
+    background: #4cae4c;
+    border-radius: 5px;
+    border: none;
+}

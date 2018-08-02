@@ -1,0 +1,284 @@
+/*沟通列表*/
+.content-record .list-img {
+  margin-right: .1rem;
+  width: .44rem;
+  height: .44rem;
+}
+.content-record .details {
+  margin-bottom: .2rem;
+}
+.content-record .mui-table-view-cell {
+  padding: .2rem!important;
+  font-size: .28rem;
+}
+.content-record .mui-table-view-cell:after {
+  left: 0;
+  right: 0;
+}
+.content-record .mui-table-view-cell .name {
+  font-weight: bold;
+}
+.content-record .mui-table-view-cell .date {
+  float: right;
+  color: #dadada;
+}
+.content-record .mui-table-view-cell .info {
+  color: #adadad;
+  padding: .1rem;
+  background: rgba(0, 162, 255, 0.05);
+}
+.content-record .mui-table-view-cell .iconfont {
+  padding: .8rem .2rem .8rem .4rem;
+  position: absolute;
+  right: 0;
+  z-index: 101;
+}
+.content-record .mask {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+}
+.content-record .icon-weixuanze {
+  color: #fff;
+}
+.content-record .icon-queding {
+  color: #ffae00;
+}
+.content-record .two-button-box button {
+  opacity: 1;
+}
+.content-record .two-button-box .zbtn-positive {
+  background: #fff;
+  color: #00a2ff;
+  border: 1px solid #00a2ff;
+}
+.content-record .two-button-box .zbtn-positive.disabled {
+  color: #fff;
+  background: #d8d7d9;
+  border: none;
+}
+.content-record .mui-indexed-list {
+  height: 100%;
+}
+/*添加沟通记录*/
+#record .weixin .outer-nav {
+  top: 0;
+}
+#record .weixin .outer {
+  padding-top: .7rem!important;
+}
+#record .division {
+  background: #f2faff;
+}
+#record .outer-nav {
+  top: .88rem;
+}
+#record .outer {
+  padding-top: .7rem;
+}
+#record .mui-scroll {
+  height: 100%;
+  background: #f2faff;
+}
+#record .add-wrapper {
+  background: #fff;
+}
+#record .list-img {
+  float: left;
+  margin-top: .14rem;
+  margin-right: .2rem;
+  width: .7rem;
+  height: .7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#record li.init-product,
+#record li.import-product {
+  border-bottom: none!important;
+}
+#record .add-wrapper a {
+  display: block;
+  overflow: hidden;
+}
+#record .add-wrapper span {
+  font-size: .32rem;
+  color: #00a2ff;
+}
+#record .mui-table-view:before,
+#record .mui-table-view:after {
+  background: none;
+}
+#record .content-wrapper {
+  background: #fff;
+}
+#record .content-wrapper li {
+  height: auto;
+  line-height: .8rem;
+  border-bottom: none!important;
+}
+#record .content-wrapper textarea {
+  margin-top: .2rem;
+  height: 2.5rem;
+  font-size: .24rem;
+}
+#record .mui-control-content {
+  background: #fff;
+}
+#record .form-wrapper li .icon-shanchu1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#record .form-wrapper li .name {
+  width: 20%;
+  color: #333;
+  line-height: 1.2rem;
+}
+#record .tab-wrapper {
+  height: .8rem;
+  line-height: .76rem;
+  font-size: .28rem;
+  overflow: hidden;
+}
+#record .tab-wrapper a {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+#record .tab-wrapper a.active {
+  border-bottom: 2px solid #00a2ff;
+  color: #00a2ff;
+}
+/*进度条的样式*/
+.progresscliaml{
+	padding-top: .4rem;
+}
+.progresscliaml .progress1 {float: left;}
+ .progresscliaml .progress-item1 {
+ 	display: block;
+	text-align: center;
+	color: #ccc;
+	font-size: 14px;
+}
+ .progresscliaml .progress-outer1:before {
+	position: absolute;
+	content: '';
+	left: 29px;
+	top: -22px;
+	height: 26px;
+	border-left: 2px solid #ccc;
+}
+ .progresscliaml .progress-item1:first-child .progress-outer1:before,
+ .progresscliaml .progress-item1:last-child .progress-outer1:after{
+    content: none;
+}
+ .progresscliaml .progress-outer1:after {
+	position: absolute;
+	content: '';
+	right: 28px;
+	top: 15px;
+	height: 60px;
+	border-left: 2px solid #d8d7d9;
+}
+ .progresscliaml .progress-outer1 {
+	position: relative;
+	margin: 0 auto 10px;
+	width: 59px;
+	height: 50px;
+}
+ .progresscliaml .progress-item1 .textinfo{
+	    width: 4rem;
+	    margin-left: 1rem;
+	    margin-top: -.38rem;
+	    text-align: left;
+	    color: #313131;
+ }
+ .progresscliaml .progress-item1 .textinfoleft{
+	    width: 162px;
+	    height: 20px;
+	    margin-left: -141px;
+	    margin-top: -20px;
+	    text-align: left;
+	     color: #313131;
+ }
+ .progresscliaml .progress-inner1 {
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+    background: #d8d7d9;
+    margin-top: 2px;
+    border-radius: 50%;
+    padding: 2px;
+}
+ .progresscliaml .progress-item1.active {
+	color: #00a2ff;
+}
+ .progresscliaml .progress-item1.active .progress-inner1{
+    background: #00a2ff;
+}
+ .progresscliaml .progress-item1.active .progress-outer1:before,
+ .progresscliaml .progress-item1.active .progress-outer1:after {
+	border-left: 2px solid #00a2ff;
+}
+ .progresscliaml .progress-item1.visited {
+	color: @themeColor11;
+}
+/*清理进度条*/
+.progresscliaml .progress1 .confirm  .progress-outer1:before{
+	content: none;
+}
+/*下面的内容样式*/
+#record .text-info{
+	background: #fff;
+	margin: 0 .28rem;
+	padding: .15rem;
+}
+#record .text-info .text-info-line{
+	color: #adadad;
+	border-bottom: 1px solid #dcdcdc;
+}
+#record .text-info .text-info-content{
+	margin-top: .15rem;
+	color: #313131;
+}
+#record .text-info-s{
+	margin-top: .3rem;
+	float: right;
+	margin-right: .25rem;
+	color: #adadad;
+}
+/*处理的滑入滑出的样式*/
+#record .textinfo-cont{
+	background: #fff;
+    margin: 0 .28rem;
+    padding: .15rem;
+    position: absolute;
+    top: 2.3rem;
+    left: .65rem;
+}
+#record .textinfo-cont .corlorb{
+	color: #00a2ff;
+}
+#record .progresscliaml .progress1 .progress-item1 i{
+	font-size: .2rem;
+	color: #d8d7d9;
+}
+.prompt{
+	color: #FFA800;
+}
+.mask-container{
+	  background: #919699;
+    color: #fff;
+    width: 5rem;
+    min-width: 5rem;
+    border-radius: .2rem;
+    font-size: .28rem;
+}
+.mask-container i{
+	color: #fff;
+	display: inline-block;
+	margin-bottom: .2rem;
+}
+
+
+

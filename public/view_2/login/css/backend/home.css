@@ -1,0 +1,113 @@
+*{margin: 0;border: 0;padding: 0}
+/*通用*/
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+.ClearFix{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
+
+/*最外层*/
+.wrap{
+    border: 1px solid #000;
+    min-width: 1280px;
+    width: 100%;
+    height: 150000px;background: red;
+}
+
+/*//头部*/
+
+.head{
+    height: 50px;
+    padding: 15px 39px 15px 20px;
+    background: white;    border: 1px solid #000;
+}
+
+.head .logo{
+    display: inline-block;
+}
+.head .logo img{
+
+    /*width: 140px;*/
+    height: 50px;
+}
+
+.head .nav{    vertical-align: top;
+    margin-left: 70px;
+    display: inline-block;
+}
+.head .nav ul{
+    /*height: 80px;*/
+    /*vertical-align: middle;*/
+    /*height: 50px;*/
+    border: 1px solid #000;
+    height: 50px;
+    display: inline-block;
+}
+.head .nav ul li{
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 5px;
+    display: inline-block;
+
+}
+
+.head .nav ul li img{
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.head .icon{
+    float: right;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.head .icon img{
+    margin-top: 10px;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+/*//main*/
+.main{
+    height: 720px;
+    overflow-y: auto;
+    padding:20px 21px 0 21px;
+}
+
+div .tip-block{
+    border: 1px solid #000;
+}
+
+
+.main .tips{
+    display: inline-block;
+    /*margin-right: 10px;*/
+    margin-bottom: 10px;
+    width: 32.6522%;
+    min-height: 400px;
+    height: 400px;
+    border: 1px solid #000;
+}
+.main .tips:nth-child(3n+1){
+    background: blue;
+}
+.main .tips:nth-child(3n+2){
+    margin-left: 0.819672131%;
+    margin-right: 0.819672131%;
+    background: whitesmoke;
+}
+.main .tips:nth-child(3n+3){
+    background: green;
+}

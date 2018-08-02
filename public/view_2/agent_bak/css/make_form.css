@@ -1,0 +1,21 @@
+.import-wrapper li {
+  border-bottom: none;
+}
+.import-wrapper li input {
+  width: 40%;
+}
+.import-wrapper li .zbtn-hollow {
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+.import-wrapper li .zbtn {
+  width: 2.3rem;
+  height: .7rem;
+  position: absolute;
+  top: .2rem;
+  right: 0;
+}
+.form-points li input {
+  width: 90%;
+  padding: .1rem;
+}

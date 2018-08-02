@@ -1,0 +1,67 @@
+.person tr {
+  height: .6rem;
+  line-height: .6rem;
+}
+.person .two-button-box button:disabled {
+  opacity: 1;
+}
+.person .mui-indexed-list {
+  height: 100%;
+}
+.person .icon-weixuanze {
+  color: #fff;
+}
+.person .icon-queding {
+  color: #ffae00;
+}
+.person .mask {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.person .mask .iconfont {
+  float: right;
+  margin-right: .2rem;
+  font-size: .2rem;
+}
+.person .mask label {
+  display: block;
+}
+.person .table-header {
+  background: #ddd;
+}
+.person .table-body {
+  background: #f4f4f4;
+}
+.person .table-header,
+.person .table-body {
+  overflow: hidden;
+}
+.person .table-header > span,
+.person .table-body span {
+  float: left;
+  text-align: center;
+}
+.person .table-body > li {
+  position: relative;
+  height: .6rem;
+  line-height: .6rem;
+  border-bottom: 1px solid #fff;
+}
+.person .col1 {
+  width: 10%;
+}
+.person .col2 {
+  width: 18%;
+}
+.person .col3 {
+  width: 20%;
+}
+.person .col4 {
+  width: 36%;
+}
+.person .col5 {
+  width: 16%;
+}

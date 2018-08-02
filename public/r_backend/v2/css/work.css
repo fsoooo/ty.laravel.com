@@ -1,0 +1,110 @@
+textarea {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+/*工单列表*/
+.modal-add {
+  width: 400px;
+}
+.modal-add .modal-body > div {
+  margin-bottom: 10px;
+}
+.modal-add label {
+  margin-right: 10px;
+  font-weight: normal;
+}
+.modal-add input {
+  padding: 0 10px;
+  width: 334px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #dcdcdc;
+}
+.modal-add select {
+  margin-left: -4px;
+  display: inline-block;
+  padding: 0 12px;
+  width: 35%;
+  height: 30px;
+  line-height: 30px;
+  background-image: url(../img/select-b.png);
+  border: 1px solid #dcdcdc;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+.modal-add textarea {
+  padding: 0 10px;
+  width: 334px;
+}
+.modal-add .modal-footer {
+  text-align: right;
+}
+/*工单详情*/
+.work-details .ui-table-tr {
+  padding: 20px;
+}
+.work-details .title {
+  font-size: 16px;
+}
+.work-details .path-list li {
+  position: relative;
+  margin-bottom: 10px;
+}
+.work-details .path-list span {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.work-details .path-list span:nth-of-type(1) {
+  left: 0;
+}
+.work-details .path-list span:nth-of-type(2) {
+  right: 0;
+}
+.work-details .path-list .text {
+  display: inline-block;
+  width: 100%;
+  padding: 0 134px 0 42px;
+}
+.work-details .info .title {
+  margin-bottom: 30px;
+}
+.work-details .info .name {
+  display: inline-block;
+  width: 60px;
+  margin-right: 10px;
+  text-align: right;
+}
+.work-details .info li {
+  margin-bottom: 30px;
+}
+.modal-cause {
+  width: 400px;
+}
+.modal-cause .cause-wapper {
+  margin: 0;
+  width: 100%;
+}
+.modal-cause .cause-wapper .cause-text {
+  height: 80px;
+}
+.modal-cause .btn {
+  width: 120px;
+}
+.modal-cause .modal-footer {
+  overflow: hidden;
+}
+.modal-cause .modal-footer .btn-warning {
+  float: left;
+}
+.modal-cause .modal-footer .btn-primary {
+  float: right;
+}
+.cause-select li {
+  margin-bottom: 6px;
+}
+.cause-select .iconfont {
+  margin-right: 6px;
+}

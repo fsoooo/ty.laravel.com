@@ -1,0 +1,198 @@
+
+body{
+    background-color: #EEEEEE;
+    font-family: 微软雅黑;
+}
+.main {
+    margin: auto;
+    /*height: auto;*/
+    background-color: #EEEEEE;
+
+}
+.main .settlement-block{
+    width: 1180px;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+}
+.main .back{
+    font-size: 16px;
+    color: #00a2ff;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: 16px;
+
+}
+.main .settlement-title{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 150px;
+    background-color: white;
+}
+.main .settlement-title .product-name,.main .settlement-title .policy-way,.main .settlement-title .start-time,.main .settlement-title .policy-money{
+    float: left;
+}
+
+.main .settlement-title .product-name{
+    width: 300px;
+    text-align: left;
+
+
+}
+.main .settlement-title .policy-way{
+    width: 80px;
+    text-align: left;
+
+
+}
+.main .settlement-title .start-time{
+    width: 250px;
+    text-align: center;
+    margin-left: 130px;
+
+
+}
+
+.main .settlement-title .policy-money{
+    width: 150px;
+    margin-left: 90px;
+    text-align: center;
+
+}
+
+.main .settlement-detail{
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px 0;
+    padding-left: 40px;
+}
+.main .settlement-detail .settlement-product-logo,.main .settlement-detail .settlement-product-name,.main .settlement-detail .settlement-product-policy-way,.main .settlement-detail .settlement-product-start-time,.main .settlement-detail .settlement-product-money{
+    /*display: inline-block;*/
+    /*margin-left: -4px;*/
+    float: left;
+    line-height: 70px;
+    font-size: 14px;
+    color: #999999;
+    vertical-align: middle;
+}
+.main .settlement-detail .settlement-product-logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+
+
+}
+.main .settlement-detail .settlement-product-name{
+    text-align: left;
+    width: 300px;
+
+
+
+}
+.main .settlement-detail .settlement-product-name a{
+    color: #999999;
+}
+.main .settlement-detail .settlement-product-policy-way{
+    text-align: left;
+    width: 80px;
+
+}
+.main .settlement-detail .settlement-product-start-time{
+    width: 250px;
+    text-align: center;
+    margin-left: 130px;
+    /*text-align: center;*/
+
+}
+.main .settlement-detail .settlement-product-money{
+    width: 150px;
+    margin-left: 90px;
+    text-align: center;
+
+
+}
+
+.main .settlement-way{
+}
+
+
+
+.main .settlement-confirm{
+    margin-top: 20px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    width: 1180px;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    color: #333333;
+}
+.main .settlement-sum{
+    float: right;
+    /*position: absolute;*/
+    /*right: 200px;*/
+    width: 220px;
+    text-align: left;
+
+}
+.main .settlement-sum .settlement-sum-name{
+    font-size:16px;
+    margin-right:15px;
+    /*vertical-align: middle;*/
+}
+.main .settlement-sum .settlement-sum-count{
+    font-size: 36px;
+    vertical-align: middle;
+    color: #ffa700;
+
+}
+.main .settlement-sum .settlement-sum-count .unit{
+    font-size: 16px;
+}
+.main .settlement-confirm .settlement-confirm-button{
+    width: 200px;
+    height: 60px;
+    float: right;
+    text-align: center;
+    background: #ffa700;
+    color: white;
+    font-size: 18px;
+}
+.main .settlement-way{
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 2px solid #e5e5e5;
+    background-color: #FFFFFF;
+    height: 59px;
+    padding-left: 40px;
+    line-height: 59px;
+    margin-top: 20px;
+}
+.main .settlement-way span,.main .settlement-way label,.main .settlement-way input{
+    vertical-align: middle;
+
+}
+.main.settlement-way span{
+    font-size: 16px;
+}
+.main.settlement-way span,.main .settlement-way  label{
+    font-size: 14px;
+}
+.main .settlement-card{
+    padding: 30px 0 30px 40px;
+    background-color: #FFFFFF;
+}
+.main .settlement-card select{
+    line-height: 35px;
+    border: 1px solid #CCCCCC;
+    height: 35px;
+    width: 131px;
+    margin-right: 10px;
+
+}
+.main .settlement-card input{
+    width: 434px;
+    border: 1px solid  #CCCCCC;
+    height: 35px;
+    line-height: 35px;
+}

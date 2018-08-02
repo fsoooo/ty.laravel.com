@@ -1,0 +1,2 @@
+<li {{ isset($nav) && $nav == 'index' ? 'class=active' : '' }}><a href="{{ route('backend.task.index') }}">任务列表</a></li>
+<li {{ isset($nav) && $nav == 'create' ? 'class=active' : '' }}><a href="{{ route('backend.task.create') }}">新建任务</a></li>

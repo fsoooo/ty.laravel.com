@@ -1,0 +1,428 @@
+	/*左侧导航的高*/
+			.main .menu-wrapper{height: 1110px;}
+			.main-header-content{width: 290px;margin: 0 auto;padding-top: 120px;}
+			.main-header {height: 656px;background: url(image/bg.png) no-repeat;background-size: 100% 100%;}
+			/*面包屑的样式*/
+			.main-wrapper .menus{margin: 20px;}
+			.main-wrapper .menus>li{display: inline-block;}
+			.main-wrapper .menus>li>a{font-size: 14px;color: #00a2ff;}
+			.main-wrapper .menus>li .iconfont{margin: 0 10px; color: #00a2ff;}
+			/*面包屑的样式结束*/
+			button:disabled{
+				background: rgba(0,0,0,.3)!important;
+			}
+			.user-authentication{float: left;padding-left: 20px;margin: 36px 0;}
+			.user-name {margin-bottom: 20px;font-size: 18px;color: #F4F4F4;}
+			.user-info{margin-top: 90px;text-align: center;}
+			.user-info>span:first-child{margin-right: 46px;}
+			.user-info>a{margin-left: 10px;color: #F4F4F4;}
+			.main-bottom {padding: 27px 30px 34px;background: #fff;}
+			.title{margin-bottom: 14px;font-size: 18px;font-weight: bold;}
+			.advantage-wrapper{margin-right: -40px;}
+			.advantage-wrapper>li{float: left;margin-right: 40px;padding: 0 30px;width: 258px;height: 144px;border: 1px solid #d8d7d9;}
+			.advantage-wrapper div{margin: 30px 0 15px;font-size: 18px;text-align: center;}
+			.main-bottom .iconfont {margin-right: 6px;color: #f5a623;}
+			.advantage-wrapper p{font-size: 16px;line-height: 24px;}
+			/*进度条的样式*/
+			.progresscliam{height: 145px;}
+			.progress {font-size: 0;margin-left: 130px;margin-top: 60px;}
+			.progress-item {display: inline-block;width: 200px;
+				text-align: center;
+				color: #ccc;
+				font-size: 14px;
+			}
+			.progress-outer:before {
+				position: absolute;
+				content: '';
+				left: -64px;
+				top: 6px;
+				width: 88px;
+				border-bottom: 2px solid #ccc;
+			}
+			.progress-item:first-child .progress-outer:before,
+			.progress-item:last-child .progress-outer:after{
+			    content: none;
+			}
+			.progress-outer:after {
+				position: absolute;
+				content: '';
+				right: -78px;
+				top: 6px;
+				width: 100px;
+				border-bottom: 2px solid #d8d7d9;
+			}
+			.progress-outer {
+				position: relative;
+				margin: 0 auto 10px;
+				width: 59px;
+				height: 16px;
+			}
+			.progress-inner {
+			    margin: 0 auto;
+			    width: 16px;
+			    height: 16px;
+			    background: #d8d7d9;
+			    margin-top: 2px;
+			    border-radius: 50%;
+			}
+			.progress-item.active {
+				color: #00a2ff;
+			}
+			.progress-item.active .progress-inner{
+			    background: #00a2ff;
+			}
+			.progress-item.active .progress-outer:before,
+			.progress-item.active .progress-outer:after {
+				border-bottom: 2px solid #00a2ff;
+			}
+			.progress-item.visited {
+				color: @themeColor11;
+			}
+			
+			/*场景一的样式*/
+			.senceinner-one{
+				height:215px;
+			}
+			.senceinner-one>span{
+				padding-left: 20px;
+				font-size: 18px;
+			}
+			.senceinner-one .bottomline{
+				border-bottom: 1px solid #ccc;
+				padding-top: 10px;
+				margin: 0 20px;
+			}
+			.senceinner-one .senceoneinfo{
+				margin-top: 40px;
+				margin-left: 104px;
+			}
+			.senceinner-one .senceoneinfo>span{
+				font-family: "微软雅黑";
+				font-size: 16px;
+				font-weight: 700;
+				margin-right: 10px;
+			}
+			.senceinner-one .senceoneinfo>select{
+				width: 290px;
+				height: 40px;
+				background: none;
+			}
+			.senceinner-one .senceoneinfo>i{
+				position: absolute;
+				right: 950px;
+				top: 486px;
+			}
+			/*场景二的样式*/
+			.senceinner-two{
+				/*height:160px;*/
+			}
+			.senceinner-two .sencetwoinfo{
+				margin: 10px 0 0 450px;
+				cursor: pointer;
+			}
+			.senceinner-two .sencetwoinfo2{
+				margin: 10px 0 0 450px;
+				cursor: pointer;
+			}
+			.senceinner-two>span,.senceinner-three>span,.senceinner-four>span{
+				padding-left: 20px;
+				font-size: 18px;
+			}
+			.senceinner-two .bottomline,.senceinner-three .bottomline,.senceinner-four .bottomline{
+				border-bottom: 1px solid #ccc;
+				padding-top: 10px;
+				margin: 0 20px;
+				
+			}
+			/*场景二原先隐藏的部分*/
+			.senceinner-two .importinfo{
+				
+			}
+			.senceinner-two .importinfo .table-head{
+				border-bottom: 8px solid #f4f4f4;
+				margin: 0 20px;
+			}
+			.senceinner-two .importinfo .table-head>a{
+				border-right: 1px solid #f4f4f4;
+				padding: 0 45px;
+			}
+			.senceinner-two .importinfo .table-head>a:nth-child(1){
+				border: none;
+			}
+			.senceinner-two .importinfo .table-head>a:nth-child(7){
+				border: none;
+			}
+			
+			/*场景三的样式*/
+			.senceinner-three{
+				/*margin-top: 90px;*/
+				height:365px;
+			}
+			.senceinner-three .sencethreeinfo{
+				margin: 56px 0 0 106px;
+			}
+			.senceinner-three .sencethreeinfo .yangshi{
+				font-size: 16px;
+				font-family: "微软雅黑";
+				font-weight: 700;
+			}
+			.senceinner-three .sencethreeinfo .yangshi>input{
+				border: none;
+				margin-left: 7px;
+				margin-right: 43px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom{
+				margin-top: 70px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom .zhifuinfo{
+				margin-left: 68px;
+				margin-top: -38px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom .zhifuinfo p{
+				text-align: center;
+			    display: block;
+			    margin-left: -9px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom ul li{
+				display: inline-block;
+				padding: 0 25px;
+				cursor: pointer;
+			}
+			/*隐藏的收款方式的信息*/
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1{
+				margin-top: 70px;
+				display: none;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 .zhifuinfo{
+				margin-left: 68px;
+				margin-top: -38px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 .zhifuinfo p{
+				text-align: center;
+			    display: block;
+			    margin-left: -9px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 ul li{
+				display: inline-block;
+				padding: 0 25px;
+				cursor: pointer;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 .zhifuinfo .bankinfo{
+				font-size: 14px;
+				margin-left: 78px;
+    			margin-top: -34px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 .zhifuinfo .bankinfo1{
+				font-size: 14px;
+				margin-left: 78px;
+    			margin-top: -24px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 .zhifuinfo .bankinfo1>span:nth-child(2){
+				color: #00a2ff;
+				padding-left: 20px;
+			}
+			.senceinner-three .sencethreeinfo .sencethreeinfo-bottom1 .zhifuinfo .bankinfo>span:nth-child(2){
+				color: #00a2ff;
+				padding-left: 20px;
+			}
+			/*银行卡账户*/
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper{
+				width: 560px;
+				height: 365px;
+				/*position: absolute;
+				top: 50%;
+				left: 38%;*/
+				background-color:#fff;
+				border-radius: 10px;
+				box-shadow:2px -2px 27px #ccc;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper input{
+				width: 400px;
+				height: 50px;
+				border-radius: 15px;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul{
+				padding: 50px;
+				position: relative;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul li{
+				padding: 12px 0;
+			}
+			
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper .close{
+				position: absolute;
+				top: 10px;
+				right: 30px;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul li .textinfo{
+				display: block;
+				margin: -40px 0 0 67px;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul li button{
+				display: inline-block;
+				margin: 0 auto;
+				width: 140px;
+				height: 45px;
+				line-height: 45px;
+				background-color:#00a2ff ;
+				color: #fff;
+				text-align: center;
+				margin-left: 132px;
+				border-radius: 5px;
+			}
+			/*微信账户下的样式*/
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul li .texterqode{
+				font-size: 16px;
+				font-family: "微软雅黑";
+				color: #00a2ff;
+				display: block;
+				float: right;
+				margin-top: 25px;
+				overflow: hidden;
+				cursor: pointer;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul li .texterqode1{
+				font-size: 16px;
+				font-family: "微软雅黑";
+				color: #00a2ff;
+				display: block;
+				margin-top: 17px;
+				margin-left: 170px;
+				overflow: hidden;
+				cursor: pointer;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbank-wrapper ul li .wxqrcode{
+				width: 250px;
+				height:250px;
+				margin: 0 auto;
+			}
+			/*提交成功的模态框*/
+			.senceinner-three .sencethreeinfo .popup .popupbanks-wrapper{
+				width: 445px;
+				height: 176px;
+				background-color:#666666;
+				border-radius: 10px;
+				box-shadow:2px -2px 27px #ccc;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbanks-wrapper .popupInfo{
+				width: 145px;
+				height: 50px;
+				text-align: center;
+				margin: 0 auto;
+				padding-top: 76px;
+				color: #fff;
+				font-size: 24px;
+			}
+			.senceinner-three .sencethreeinfo .popup .popupbanks-wrapper .popupInfo i{
+				font-size: 23px;
+				padding-right: 15px;
+			}
+			/*场景四的样式*/
+			.senceinner-four{
+				height:360px;
+			}
+			.senceinner-four .sencefourinfo{
+				margin-top: 60px;
+				margin-left: 90px;
+			}
+			.senceinner-four .sencefourinfo .btnadd{
+				border: 2px dashed #dedede;
+				color: #00a2ff;
+				background-color: #f4f4f4;
+				padding: 30px 25px;
+				border-radius: 10px;
+			}
+			/*场景四上传图片的样式*/
+			.senceinner-four .sencefourinfo .photos-wrapper li {
+			  margin: 0 20px 20px 0;
+			  display: inline-block;
+			  width: 110px;
+			  height: 80px;
+			  vertical-align: top;
+			}
+			.senceinner-four .sencefourinfo .photos-wrapper li img {
+			  width: 100%;
+			  height: 100%;
+			}
+				
+			/*上传图片==放大显示时的样式*/
+			.previewPop-wrapper{
+				width: 704px;
+				height: 489px;
+				background-color:transparent;
+				border-radius: 10px;
+			}
+			.previewPop-wrapper .swiper-container{
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			.previewPop-wrapper .swiper-button-white:disabled{
+				cursor: not-allowed;
+			}
+			.previewPop-wrapper .swiper-button-prev{
+				left: -100px;
+			}
+			.previewPop-wrapper .swiper-button-next{
+				right: -100px;
+			}
+			
+			/*上传图片的背景层*/
+			.previewPop .popups-bg {
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  right: 0;
+				  bottom: 0;
+				  background: rgba(0,0,0,.4);
+				  z-index: 0;
+			}
+			.previewPop .btn-detele{
+				display: none;
+				position: absolute;
+				right: -47px;
+				bottom: -47px;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				color: #fff;
+				font-size: 20px;
+				background: rgba(0,0,0,.6);
+				z-index: 10;
+			}
+			.previewPop .icon-delete{
+				transform: translate(-18px,-20px);
+    			display: inline-block;
+			}
+			.swiper-slide{
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center center;
+			}
+			/*最下面的提交审核的按钮*/
+			.agreecontent{
+				height: 145px;
+			}
+			.agreecontent .contented{
+				padding: 18px 0 0 350px;
+			}
+			.agreecontent .contented .actives{
+				color: #00a2ff;
+			}
+			.agreecontent .contented .btn{
+				width: 208px;
+				height: 48px;
+				line-height: 48px;
+				text-align: center;
+				cursor: pointer;
+				background-color: #ffae00;
+				color: #fff;
+				margin-left: 45px;
+			}
+			.lml{
+				color: #000;
+			}
+			.icon-danxuan{
+				color: #00a2ff;
+			}

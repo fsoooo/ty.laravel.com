@@ -1,0 +1,12 @@
+.ui-paging-container{color:#666;font-size: 12px;}
+.ui-paging-container ul{overflow: hidden;text-align: center;}
+.ui-paging-container ul,.ui-paging-container li{list-style: none;}
+.ui-paging-container li{display: inline-block;padding:10px 12px;margin-left: 5px;color:#666;}
+.ui-paging-container li.ui-pager{cursor: pointer; border:1px solid #ddd;border-radius: 2px;}
+.ui-paging-container li.ui-pager:hover,.ui-paging-container li.focus{color: #00a2ff;border: 1px solid #00a2ff;}
+.ui-paging-container li.ui-paging-ellipse{border:none;}
+.ui-paging-container li.ui-paging-toolbar{float:right;padding:0;}
+.ui-paging-container li.ui-paging-toolbar select{height:22px;border:1px solid #ddd;color: #666;}
+.ui-paging-container li.ui-paging-toolbar input{width:34px;line-height: 34px; height:34px;padding:0;border:1px solid #ddd;text-align: center;margin:0 5px;vertical-align: middle;}
+.ui-paging-container li.ui-paging-toolbar a{width:34px;height:34px;border:1px solid #ddd;vertical-align: top;border-radius: 2px;line-height: 34px;cursor: pointer;margin-left: 20px;color: #666;}
+.ui-paging-container li.ui-pager-disabled,.ui-paging-container li.ui-pager-disabled:hover{background-color: #f6f6f6;;cursor: default;border:none;color:#ddd;}

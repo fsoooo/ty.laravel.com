@@ -1,0 +1,53 @@
+.label-section {
+  padding: 20px;
+  background: #21294c;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-bottom: 10px;
+}
+.label-section .btn-primary {
+  height: 40px;
+}
+.label-top span {
+  margin-right: 16px;
+  cursor: pointer;
+}
+.label-top .active {
+  color: #00a2ff;
+}
+.label-middle .label-wrapper span {
+  margin: 0 10px 0 0;
+}
+.label-middle .label-wrapper .iconfont {
+  font-size: 12px;
+  vertical-align: text-bottom;
+  cursor: pointer;
+}
+.label-bottom input {
+  margin-right: 20px;
+  padding: 0 10px;
+  width: 400px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  vertical-align: middle;
+}
+.modal-label .modal-dialog {
+  width: 320px;
+}
+.modal-label .modal-body {
+  height: 200px;
+}
+.modal-label .name {
+  display: inline-block;
+  width: 70px;
+}
+.modal-label li {
+  margin-bottom: 10px;
+}
+.modal-label li .btn {
+  margin-left: 14px;
+  padding: 0;
+}

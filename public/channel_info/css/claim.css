@@ -1,0 +1,106 @@
+body, select, textarea, button, .ui-btn {
+    font-size: .8rem;
+    color: #7a7b80;
+}
+button{
+	border: none;
+}
+button:disabled{
+	background-color: rgba(246,216,95,.7)
+}
+button.service-btn{
+	display: block;
+	margin: 0 auto;
+}
+.main{
+	margin-top: 4rem;
+}
+.header{
+	height: 4rem;
+    padding-top: 1.4rem;
+    background: #f6d85f;
+    color: #744c22;
+}
+.arrow-left2,.home{
+	padding: 1rem;
+	top: .8rem;
+}
+
+#defuTimes .formW{
+	padding: .5rem 1rem;
+}
+#defuTimes .formW1{
+	font-size: .8rem;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+#defuTimes .formW1 img{
+	float: left;
+	margin-right: 1rem;
+}
+#defuTimes .formW1 .text{
+	line-height: 2;
+}
+
+#defuTimes .formW2{
+	margin-bottom: 1rem;
+	color: #c5c5c5;
+	text-align: center;
+}
+
+#defuTimes .formW3 .tip{
+	margin-bottom: .6rem;
+	color: #29B2F4;
+}
+#defuTimes .formW3 img{
+	margin-right: .4rem;
+	vertical-align: bottom;
+}
+#defuTimes .formW3 .text{
+	margin-bottom: 2rem;
+}
+
+#defuTimes .formW4{
+	font-size: 1rem;
+	text-align: right;
+	line-height: 1;
+}
+#defuTimes .formW4 img{
+	vertical-align: middle;
+}
+
+#defuTimes .bank-img{
+	display: none;
+}
+
+
+#defuTimes .service-btn{
+	margin-top: 5rem;
+}
+
+
+#claim-alertwin{
+	
+}
+#claim-alertwin #date{
+	font-size: 1.4rem;
+}
+#claim-alertwin .tips{
+	margin-top: 1.2rem;
+	font-size: 1rem;
+	text-align: left;
+}
+
+
+.tips-wrapper .iconfont{
+	font-size: 1rem;
+}
+.tips-wrapper{
+	height: 1.4rem;
+	line-height: 1.4rem;
+	font-size: .2rem;
+	background: #fff;
+	color: #ff8a00;
+	text-align: center;
+}

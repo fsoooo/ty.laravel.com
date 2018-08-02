@@ -1,0 +1,108 @@
+html,body,div,span,h1,button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 14px;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+html,body,.banner,.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	color: #fff;
+}
+.main{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 8;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	top: 20px;
+	left: 0px;
+	z-index: 999;
+	overflow: hidden;
+}
+
+.nav {
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.logo {
+	float: left;
+    background: url(../image/login-logo.png) no-repeat;
+    width: 120px;
+    height: 40px;
+    background-position: 0 0;
+    background-size: 120px;
+}
+
+.entry {
+	float: right;
+	color: #bfbfbf;
+}
+
+.entry a {
+	color: #fff;
+	margin: 0 5px;
+	text-decoration: none;
+}
+.entry a:hover{
+	color: #F18164;
+}
+.slogon{
+	font-size: 52px;
+	font-family: cursive,arial;
+	margin-bottom: 20px;
+}
+.buttonbox{
+	margin-right: -15px;
+	font-size: 0;
+}
+.buttonbox .iconfont{
+	margin-right: 5px;
+	font-size: 20px;
+    vertical-align: middle;
+}
+.buttonbox button {
+	margin-right: 15px;
+    font-size: 14px;
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: transparent;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.buttonbox a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;	
+}
+.buttonbox button:hover{
+	color: #F18164;
+	border: 1px solid #F18164;
+}

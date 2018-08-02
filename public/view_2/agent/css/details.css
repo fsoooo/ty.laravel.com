@@ -1,0 +1,84 @@
+.mui-scroll-wrapper {
+  bottom: 1rem;
+}
+#header {
+  background: rgba(2, 90, 141, 0.6);
+}
+.banner {
+  height: 4.15rem;
+}
+.tag-wrapper {
+  padding: .2rem .3rem;
+  font-size: .2rem;
+  color: #535353;
+  background: #fff;
+  letter-spacing: -1px;
+}
+.tag-wrapper .tag-item {
+  margin-right: .16rem;
+}
+.tag-wrapper .iconfont {
+  margin-right: .06rem;
+  font-size: .26rem;
+  vertical-align: initial;
+}
+.content-wrapper {
+  padding: 0 .3rem .3rem;
+  font-size: .28rem;
+}
+.content-list li {
+  line-height: .9rem;
+  border-bottom: 1px solid #adadad;
+  overflow: hidden;
+}
+.content-list .name {
+  float: left;
+  width: 2rem;
+  margin-right: .1rem;
+  font-weight: bold;
+}
+.content-list .select-box {
+  float: left;
+  width: 68%;
+}
+.content-list .zbtn-dropdown span {
+  display: inline-block;
+  width: 40%;
+}
+.content-list .zbtn-dropdown input {
+  height: .9rem;
+  line-height: .9rem;
+  font-size: .28rem;
+  width: 52%;
+  text-align: right;
+}
+.content-list .zbtn-dropdown .iconfont {
+  position: absolute;
+  right: .2rem;
+  color: #00a2ff;
+}
+.zbtn-open {
+  width: 100%;
+  height: .89rem;
+  border: 1px solid #adadad;
+  color: #adadad;
+  text-align: center;
+}
+.zbtn-open .iconfont {
+  color: #adadad;
+}
+.buttons-box .zbtn {
+  height: 1rem;
+  line-height: 1rem;
+}
+.buttons-box .zbtn-price {
+  width: 30%;
+  color: #ffae00;
+  background: #fff;
+}
+.buttons-box .zbtn-positive {
+  width: 40%;
+}
+.buttons-box .zbtn-default {
+  width: 30%;
+}

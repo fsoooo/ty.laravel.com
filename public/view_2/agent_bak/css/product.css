@@ -1,0 +1,180 @@
+.table-gary td {
+  height: 40px;
+  line-height: 40px;
+  border-color: #a3ddff;
+}
+.table-gary td:nth-child(odd) {
+  width: 15%;
+  background: #f2faff;
+}
+.user-wrapper img {
+  margin-top: 5px;
+}
+.user-wrapper .user-info {
+  padding-top: 0;
+  font-size: 24px;
+}
+.datas-wrapper {
+  padding: 20px 40px;
+  background: #fafdff;
+}
+.datas-wrapper .datas-content {
+  padding: 20px;
+  margin: 0 auto;
+  width: 800px;
+  height: 320px;
+  background: #fff;
+  box-shadow: 1px 1px 20px rgba(0, 162, 255, 0.2);
+}
+.datas-wrapper .datas-header {
+  overflow: hidden;
+}
+.datas-wrapper .ranking-wrapper {
+  margin-top: -14px;
+  float: right;
+}
+.datas-wrapper .ranking-wrapper > span {
+  margin: 0 5px;
+}
+.datas-wrapper .ranking-wrapper .more {
+  color: #00a2ff;
+}
+.section-wrapper {
+  margin: 20px 0;
+  border: 1px solid #a3ddff;
+}
+.section-header {
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  background: #f2faff;
+}
+.section-header .iconfont {
+  margin-right: 10px;
+  color: #00a2ff;
+}
+.section2 .section-content {
+  padding: 36px 0 24px;
+}
+.section-content {
+  overflow: hidden;
+}
+.section-content .info {
+  padding: 10px 50px;
+}
+.section-content .info .more {
+  margin-left: 40px;
+  color: #00a2ff;
+}
+.section-content .details {
+  display: none;
+  padding: 10px 50px;
+  background: #f4f4f4;
+  text-indent: 2em;
+  line-height: 24px;
+}
+/*用户评价*/
+.evaluate-left {
+  padding: 0 40px;
+  float: left;
+}
+.evaluate-left .score {
+  color: #ffae00;
+  text-align: center;
+}
+.evaluate-left .score span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.evaluate-left .satis {
+  margin: 4px 0;
+}
+.evaluate-right {
+  position: relative;
+  width: 680px;
+  margin-right: 120px;
+  float: right;
+}
+.evaluate-right .iconfont {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  padding: 20px;
+  color: #00a2ff;
+  cursor: pointer;
+}
+.evaluate-right .z-btn {
+  margin: 0 0 14px 10px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  color: #313131;
+  border-color: #ddd;
+  cursor: initial;
+}
+.evaluate-right .z-btn.high {
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+/*全部评价*/
+.evaluate-wrapper {
+  margin-top: 16px;
+}
+.evaluate-wrapper .evaluate-all {
+  text-align: center;
+}
+.evaluate-wrapper .title {
+  padding: 0 20px;
+  height: 44px;
+  line-height: 44px;
+}
+.evaluate-wrapper .title .fold {
+  display: none;
+  float: right;
+  color: #00a2ff;
+}
+.evaluate-wrapper .title .fold .iconfont {
+  margin-left: 10px;
+}
+.evaluate-wrapper .evaluate-list {
+  display: none;
+  border-top: 1px solid #a3ddff;
+  border-bottom: 1px solid #a3ddff;
+}
+.evaluate-wrapper .evaluate-list li {
+  padding: 14px 0;
+  overflow: hidden;
+}
+.evaluate-wrapper .evaluate-list li + li {
+  border-top: 1px solid #ddd;
+}
+.evaluate-wrapper .avator {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.evaluate-wrapper .evaluate-user {
+  float: left;
+  padding: 0 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #ADADAD;
+}
+.evaluate-wrapper .evaluate-info {
+  float: right;
+  width: 920px;
+}
+.evaluate-wrapper .evaluate-info .date {
+  float: right;
+  color: #ADADAD;
+}
+.evaluate-wrapper .evaluate-info .rank {
+  margin-bottom: 10px;
+}
+.evaluate-wrapper .evaluate-info .text {
+  font-size: 16px;
+}

@@ -1,0 +1,243 @@
+.icon-unapprove {
+  display: inline-block;
+  padding-left: 26px;
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #f00;
+  background: url(../img/approve-bg.png) no-repeat;
+}
+.avatar {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+}
+/*首页*/
+.content-account {
+  position: relative;
+  padding: 110px 85px!important;
+}
+.content-account .avatar {
+  position: absolute;
+  top: 110px;
+  right: 90px;
+}
+.information li {
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+.information .name {
+  float: left;
+  width: 95px;
+}
+.information .certificate {
+  float: left;
+  width: 290px;
+}
+.information .certificate > div {
+  margin-bottom: 30px;
+}
+.information input {
+  width: 240px;
+  height: 30px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+.btn-wrapper {
+  text-align: center;
+}
+.btn-wrapper .z-btn {
+  width: 160px;
+  height: 46px;
+  line-height: 46px;
+  margin-left: 40px;
+}
+/*认证*/
+.content-edit .form {
+  position: relative;
+  padding: 20px 50px;
+}
+.content-edit .avatar {
+  position: absolute;
+  top: 0;
+  right: 114px;
+}
+.content-edit .avatar .upload-wrapper {
+  margin: 0;
+  display: inline-block;
+  width: 117px;
+  height: 117px;
+  line-height: 117px;
+  text-align: center;
+  cursor: pointer;
+}
+.content-edit .avatar .upload-wrapper .default-wrapper {
+  background: url(../img/girl.png);
+}
+.content-edit .avatar .upload-wrapper .default {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+}
+.popups-call .popups {
+  width: 800px;
+}
+.popups-call .popups-content {
+  padding: 100px 0;
+  text-align: center;
+}
+.popups-call .explain {
+  margin-bottom: 26px;
+  font-size: 18px;
+  color: #f00;
+}
+.popups-call .text {
+  font-size: 20px;
+}
+.photo-wrapper {
+  padding-left: 96px;
+}
+.photo-wrapper p {
+  margin: 20px 0;
+}
+.example-wrapper,
+.upload-wrapper {
+  float: left;
+  width: 290px;
+  height: 180px;
+}
+.photo-item {
+  margin-bottom: 30px;
+}
+.btn-upload {
+  margin-top: 72px;
+  width: 104px;
+  height: 30px;
+  line-height: 30px;
+}
+.photo-wrapper .color-positive {
+  margin-left: 286px;
+}
+.upload-wrapper {
+  position: relative;
+  margin: 0 20px 0 100px;
+  background: #f4f4f4;
+  text-align: center;
+}
+.upload-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.upload-wrapper .text {
+  position: relative;
+  top: -48px;
+}
+/*修改密码*/
+.content-change .password {
+  margin: 100px 0 200px 328px;
+}
+.content-change li {
+  margin-bottom: 20px;
+}
+.content-change .name {
+  display: inline-block;
+  width: 100px;
+}
+.content-change input {
+  width: 280px;
+  height: 40px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+.content-change .error {
+  padding-left: 20px;
+}
+/*修改密码-实名认证成功页面*/
+.success .tips-wrapper {
+  text-align: center;
+  color: #ffae00;
+}
+.success .tips-wrapper .iconfont {
+  font-size: 142px;
+}
+.success .tips-wrapper .text {
+  margin-top: 20px;
+}
+.success .z-btn {
+  padding: 0 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.success .z-btn-hollow {
+  margin-left: 40px;
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+/*认证*/
+.content-approve .content {
+  padding: 0;
+}
+.content-approve .avatar {
+  float: left;
+  margin-right: 20px;
+}
+.content-approve .info-wrapper {
+  height: 410px;
+  background: url(../img/bg.png) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+}
+.content-approve .info-wrapper .name {
+  font-size: 18px;
+}
+.content-approve .info-wrapper .info {
+  margin: 120px 0 30px;
+  display: inline-block;
+  text-align: left;
+}
+.content-approve .info-wrapper .info-list {
+  float: left;
+  line-height: 36px;
+  margin-top: -10px;
+}
+.content-approve .info-wrapper .z-btn {
+  display: block;
+  margin: 0 auto;
+  width: 238px;
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.content-approve .explain-wrapper {
+  margin: 34px auto;
+  width: 1044px;
+  height: 54px;
+  padding: 58px 0;
+  border: 1px solid #00a2ff;
+}
+.content-approve .explain-wrapper .iconfont {
+  margin: 0 10px 0 170px;
+  font-size: 46px;
+  color: #ffae00;
+  vertical-align: text-bottom;
+}
+.content-approve .explain-wrapper .explain {
+  display: inline-block;
+  line-height: 30px;
+}
+.content-approve .explain-wrapper .explain a {
+  color: #f00;
+}

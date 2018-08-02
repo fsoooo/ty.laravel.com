@@ -1,0 +1,82 @@
+body{background: #f7f7f7;}
+/*进度条*/
+.progress {
+	position: absolute;
+    margin-left: -.2rem;
+	font-size: 0;
+}
+
+.progress-item {
+	display: inline-block;
+	width: 1.4rem;
+	text-align: center;
+	color: #ccc;
+	font-size: .18rem;
+}
+.progress-item:first-child .progress-outer:before{
+    content: none;
+}
+.progress-outer:before {
+	position: absolute;
+	content: '';
+	left: -1rem;
+	top: .04rem;
+	width: 1.4rem;
+	border-bottom: 2px solid #d8d7d9;
+}
+
+.progress-outer {
+	position: relative;
+	margin: .2rem auto .1rem;
+	width: .7rem;
+	height: .16rem;
+}
+
+.progress-inner {
+    width: .12rem;
+    height: .12rem;
+    margin: 0 auto;
+    background: #d8d7d9;
+    border-radius: 50%;
+}
+
+.progress-item.active {
+	color: #00a2ff;
+}
+.progress-item.active .progress-inner{
+    background: #00a2ff;
+}
+
+.progress-item.active .progress-outer:before {
+	border-bottom: 2px solid #00a2ff;
+}
+
+.progress-item.visited {
+	color: @themeColor11;
+}
+
+.btn-wrapper .btn-primary{
+	padding: 0 .1rem;
+}
+
+.menu-wrapper{
+	background: #fff;
+}
+
+
+.mui-scroll-wrapper {top: .2rem;bottom: 0;}
+.btn-positive{margin-left: .2rem;}
+.menu-wrapper{height: .88rem;line-height: .88rem;font-size: 0;}
+.menu-wrapper>span{font-size: .26rem;display: inline-block;width: 50%;text-align: center;}
+.menu-wrapper>span.active{position: relative;color: #00A2FF;}
+.menu-wrapper>span.active:after{position: absolute;bottom: .1rem;left: 1.28rem;;content: '';width: 1.2rem;height: .06rem;border-radius: 15px;background: #00A2FF;}
+.guarantee-wrapper>li{padding: 0 .3rem 1rem;margin-bottom: .2rem;background: #fff;}
+.guarantee-code{height: .54rem;line-height: .54rem;border-bottom: 1px solid #dcdcdc;}
+.status{color: #FFAD00;}
+.guarantee-name,h1{font-size: .32rem;font-weight: normal;color: #00A2FF;}
+.guarantee-info{padding-bottom: .2rem; border-bottom: 1px solid #dcdcdc;}
+.guarantee-info div{line-height: .8rem;}
+.guarantee-info p{line-height: .4rem;}
+.btn-wrapper{padding: .6em 0;text-align: right;}
+.inGuarantee .status,.inGuarantee h1{color: #00a2ff;}
+.inGuarantee p{color: #313131;}

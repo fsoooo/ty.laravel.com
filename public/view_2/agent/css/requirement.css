@@ -1,0 +1,224 @@
+table tr:hover {
+  background: none!important;
+}
+table td {
+  height: 50px;
+  line-height: initial;
+  border: 1px solid #d8d7d9;
+}
+table td:nth-child(odd) {
+  background: #f4f4f4;
+}
+table select,
+table input,
+table textarea {
+  width: 95%;
+  border: none;
+  outline: none;
+  height: 87%;
+}
+/*æˆ‘çš„å·¥å•*/
+.select-wrapper {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.work-list .line1,
+.work-list-detalis .line1 {
+  height: 40px;
+  line-height: 40px;
+  color: #adadad;
+  border-bottom: 1px solid #f4f4f4;
+}
+.work-list .line1 span,
+.work-list-detalis .line1 span {
+  margin-right: 30px;
+}
+.work-list .line1 .iconfont,
+.work-list-detalis .line1 .iconfont {
+  float: right;
+  padding: 0 10px;
+  font-size: 20px;
+  color: #00a2ff;
+  cursor: pointer;
+}
+.work-list li {
+  padding: 0 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.06);
+}
+.work-list li:hover {
+  box-shadow: 0 0 18px 3px rgba(0, 162, 255, 0.16);
+}
+.work-list .line2 {
+  height: 66px;
+  padding: 10px 0;
+}
+.work-list .col1 {
+  float: left;
+  line-height: 31px;
+}
+.work-list .col1 span {
+  display: block;
+}
+.work-list .col2 {
+  width: 85%;
+  line-height: 60px;
+  font-size: 18px;
+  text-align: center;
+  color: #00a2ff;
+}
+.work-list .col3 {
+  float: right;
+  margin-top: 38px;
+  font-size: 16px;
+  color: #ffae00;
+}
+.work-list-detalis {
+  border: 1px solid #d8d7d9;
+}
+.work-list-detalis .line2 {
+  padding: 10px 0;
+}
+.work-list-detalis .line2 .col1 span {
+  margin-right: 20px;
+}
+.work-list-detalis .line2 .col2 {
+  font-size: 18px;
+  text-align: center;
+  color: #00a2ff;
+}
+.work-list-detalis .info {
+  padding: 0 10px;
+  border-bottom: 1px solid #d8d7d9;
+}
+.work-list-detalis .text {
+  padding: 10px;
+  height: 236px;
+  line-height: 24px;
+}
+/*å·¥å•è®°å½•è¯¦æƒ…*/
+.work-record-detalis {
+  border: 1px solid #d8d7d9;
+}
+.work-record-detalis .title {
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #d8d7d9;
+}
+.work-record-detalis .record-list {
+  padding: 10px;
+  height: 210px;
+  line-height: 26px;
+}
+.work-record-detalis .record-list span {
+  display: inline-block;
+  width: 200px;
+}
+.work-record-detalis .text {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+.work-record-detalis .text input {
+  padding: 0 100px 0 10px;
+  width: 89%;
+  height: 100%;
+  border-color: #00a2ff;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+.work-record-detalis .text .z-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90px;
+  height: 62px;
+  background: #00a2ff;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+/*è¿›åº¦æ¡*/
+.progress {
+  margin: 80px 0 40px;
+  font-size: 0;
+  text-align: center;
+}
+.progress-item {
+  display: inline-block;
+  width: 230px;
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
+.progress-outer:before {
+  position: absolute;
+  content: '';
+  left: -86px;
+  top: 6px;
+  width: 110px;
+  border-bottom: 4px solid #d8d7d9;
+}
+.progress-item:first-child .progress-outer:before,
+.progress-item:last-child .progress-outer:after {
+  content: none;
+}
+.progress-outer:after {
+  position: absolute;
+  content: '';
+  right: -86px;
+  top: 6px;
+  width: 110px;
+  border-bottom: 4px solid #d8d7d9;
+}
+.progress-outer {
+  position: relative;
+  margin: 0 auto 10px;
+  width: 59px;
+  height: 16px;
+}
+.progress-inner {
+  margin: 0 auto;
+  width: 18px;
+  height: 18px;
+  background: #d8d7d9;
+  margin-top: 2px;
+  border-radius: 50%;
+  font-size: 0;
+}
+.progress-item.active .progress-inner {
+  background: #00a2ff;
+}
+.progress-item.active .progress-outer:before,
+.progress-item.active .progress-outer:after {
+  border-color: #00a2ff;
+}
+.progress-item.visited .progress-inner {
+  background: #00a2ff;
+}
+.progress-item.visited .progress-outer:before,
+.progress-item.visited .progress-outer:after {
+  border-color: #00a2ff;
+}
+.progress-text {
+  color: #313131;
+}
+/*æˆåŠŸæç¤ºé¡µé¢*/
+.success .tips-wrapper {
+  text-align: center;
+  color: #ffae00;
+}
+.success .tips-wrapper .iconfont {
+  font-size: 142px;
+}
+.success .tips-wrapper .text {
+  margin-top: 20px;
+}
+.success .text {
+  color: #313131;
+}

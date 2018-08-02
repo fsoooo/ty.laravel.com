@@ -1,0 +1,828 @@
+@import "common.less";
+/*购买流程*/
+.notification {
+	margin-top: 44px;
+	padding-bottom: 50px;
+}
+
+.notification-left-list li {
+	padding: 0 30px;
+	line-height: 28px;
+	margin-bottom: 30px;
+	color: #333;
+	text-align: justify;
+}
+.f18164{
+    color: #ffae00;
+}
+.notification-left {
+	width: 870px;
+	background: #fff;
+}
+
+.notification-left-tip {
+	padding-left: 30px;
+	height: 60px;
+	line-height: 60px;
+	color: #666;
+	background: @themeColor22;
+}
+
+.icon-yduidunpaishixin {
+	margin-right: 8px;
+	font-size: 24px;
+	vertical-align: middle;
+	color: @themeColor2;
+}
+
+.notification-left-content {
+	padding: 20px 30px;
+	background: #fff;
+}
+
+.notification-left-title {
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 40px;
+	background: @themeColor22;
+	font-size: 18px;
+	text-align: center;
+}
+
+.notification-right {
+	width: 290px;
+	background: #fff;
+}
+
+.notification-right-info {
+	color: #333;
+}
+
+.notification-right-header {
+	padding: 30px;
+}
+
+.notification-right-img {
+	width: 130px;
+	height: 66px;
+	margin: 0 auto 40px;
+}
+
+.notification-right-title {
+	line-height: 26px;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.notification-right-content {
+	
+	border-top: 1px solid @borderColor;
+	border-bottom: 1px solid @borderColor;
+}
+.notification-right-content ul{
+	padding: 30px 30px 14px
+}
+.notification-right-content ul:last-child{
+	background: #fcfcfc;
+}
+.notification-right-content li {
+	margin-bottom: 16px;
+}
+
+.notification-right-content ul:first-child li:nth-child(1) {
+	margin-bottom: 30px;
+}
+
+.notification-right-info .col1 {
+	float: left;
+}
+
+.notification-right-info .col2 {
+	float: right;
+}
+.notification-right-price{
+	background: #fcfcfc;
+}
+.notification-right-price .col1 {
+	margin-top: 10px;
+}
+
+.notification-right-price .col2 {
+	color: @themeColor1;
+}
+
+.notification-right-price .price {
+	font-size: 30px;
+}
+
+.notification-right-price {
+	padding: 30px;
+}
+
+
+/*进度条*/
+
+.progress {
+	font-size: 0;
+}
+
+.progress-item {
+	display: inline-block;
+	width: 101px;
+	text-align: center;
+	color: #ccc;
+	font-size: 14px;
+}
+
+.progress-outer:before {
+	position: absolute;
+	content: '';
+	left: -21px;
+	top: 6px;
+	width: 45px;
+	border-bottom: 2px solid #ccc;
+}
+.progress-item:first-child .progress-outer:before,
+.progress-item:last-child .progress-outer:after{
+    content: none;
+}
+.progress-outer:after {
+	position: absolute;
+	content: '';
+	right: -22px;
+	top: 6px;
+	width: 45px;
+	border-bottom: 2px solid #d8d7d9;
+}
+
+.progress-outer {
+	position: relative;
+	margin: 0 auto 10px;
+	width: 59px;
+	height: 16px;
+}
+
+.progress-inner {
+    margin: 0 auto;
+    width: 12px;
+    height: 12px;
+    background: #d8d7d9;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.progress-item.active {
+	color: #00a2ff;
+}
+.progress-item.active .progress-inner{
+    background: #00a2ff;
+}
+
+.progress-item.active .progress-outer:before,
+.progress-item.active .progress-outer:after {
+	border-bottom: 2px solid #00a2ff;
+}
+
+.progress-item.visited {
+	color: @themeColor11;
+}
+
+
+/*投保须知*/
+
+.step1 .notification-left-list ul a {
+	margin-left: 10px;
+	color: #333;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.step1 .notification-left-operation {
+	text-align: center;
+}
+
+.step1 .notification-left-agreement {
+	margin-bottom: 50px;
+}
+
+
+/*健康须知*/
+
+.step2 .notification-left-list td {
+	padding: 0 0 30px 30px;
+}
+
+.step2 .notification-left-list .text {
+	width: 560px;
+	line-height: 28px;
+	padding-bottom: 50px;
+	color: #333;
+	text-align: justify;
+}
+
+.step2 .notification-left-list .buttonbox {
+	width: 140px;
+	padding-left: 70px;
+	padding-bottom: 50px;
+	vertical-align: middle;
+}
+
+.step2 .btn-small {
+	margin-right: 20px;
+}
+
+.step2 .notification-left-operation {
+	text-align: center;
+}
+.btn-unusable{
+	background: @borderColor;
+	border: 1px solid @borderColor;
+	color: #fff;
+	cursor: not-allowed;
+}
+.step2 .notification-left-agreement {
+	margin-bottom: 50px;
+}
+
+.step2 .notification-left-statement {
+	padding: 20px;
+	margin-bottom: 30px;
+	line-height: 18px;
+	color: #666;
+	background: @themeColor22;
+}
+
+
+/*填写投保信息*/
+.time-start,.time-end{
+	margin: 0 5px;
+}
+#starttime,#birthday{
+	width: 196px;
+	padding: 0 15px;
+    display: inline-block;
+    height: 38px;
+    border: 1px solid @borderColor;
+    line-height: 38px;
+    font-size: 16px;
+    color: #333;
+    vertical-align: middle;
+}
+.step3 .name,
+.step5 .name{
+	display: inline-block;
+	width: 150px;
+	margin-right: 30px;
+	text-align: right;
+	font-size: 16px;
+	color: #333;
+}
+.step3 .title,
+.step5 .title{
+	margin-bottom: 30px;
+	font-size: 16px;
+	border-left: 3px solid @themeColor2;
+    padding-left: 15px;
+	font-weight: bold;
+}
+.step3 input[type=email]{
+	width: 408px;
+}
+.step3 .select{
+	vertical-align: middle;
+}
+.step3 .notification-left-content{
+	font-size: 16px;
+}
+.step3 input,
+.step3 .person .select{
+	height: 38px;
+	line-height: 38px;
+}
+.step3 .person input[type=text],
+.step5 .person input[type=text]{
+	width: 180px;
+}
+.step3 .person input.w320{
+    width: 320px;
+}
+.step3 .select{
+	width: 195px;
+}
+.step3 .radiobox label{
+    margin-right: 15px;
+}
+.step3 .radiobox .iconfont{
+    margin-right: 5px;
+}
+.person-show-hide{
+    display: none;
+}
+.step3 .date{
+	padding: 40px 0 30px 0;
+	font-size: 12px;
+	color: #999;
+}
+.contact-agreement a{
+    margin: 0 5px;
+}
+.step3 .person{
+	padding: 10px 0;
+}
+.step3 .person>ul>li,
+.step5 .person>ul>li,
+.step3 .contact>ul>li{
+	margin-bottom: 25px;
+}
+.step3 .person>ul>li:nth-child(2) .select{
+	width: 85px;
+}
+.save{
+	padding-left: 184px;
+	color: #666;
+}
+
+.step3 .contact{
+	padding: 40px 0;
+}
+.step3 .contact .contact-agreement{
+	margin-left: 180px;
+}
+.step3 .contact .btn{
+	margin-left: 225px;
+}
+.contact .btn-add{
+	display: inline-block;
+	margin-left: 10px;
+	transform: rotate(45deg);
+	font-size: 10px;
+	color: @themeColor1;
+	cursor: pointer;
+}
+.contact.active .btn-add{
+	transform: rotate(90deg);
+	transition: all .5s;
+}
+.contact .contact-wrapper{
+	display: none;
+}
+.contact.active .contact-wrapper{
+	display: block;
+}
+.step1 .icon,
+.step3 .icon,
+.step3 .contact .btn{
+	margin-right: 10px;
+}
+.step3 .contact-agreement{
+	margin: 40px 0 50px;
+}
+.step3 .btn-save{
+	color: #666;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.step3 .person-other>ul>li{
+	margin-bottom: 0;
+}
+.person-other-content{
+	display: none;
+}
+
+
+/*给家人购买*/
+.step3 table th{
+	height: 60px;
+	line-height: 60px;
+	padding-left: 10px;
+	text-align: left;
+	color: #666;
+	background: @themeColor22;
+	font-weight: normal;
+}
+.step3 table td{
+	padding: 10px 5px;
+}
+.step3 table tr{
+	background: #f7f7f7;
+}
+.step3 table th:first-child,
+.step3 table td:first-child{
+	padding-left: 20px;
+}
+.step3 table th:last-child,
+.step3 table td:last-child{
+	position: relative;
+	padding-right: 20px;
+}
+.step3 table .icon-close{
+	position: absolute;
+	top: 22px;
+	right: 4px;
+	font-size: 10px;
+	cursor: pointer;
+}
+.step3 table input,
+.step3 table .select{
+	padding: 0 10px;
+	margin-right: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.step3 .operation{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid @borderColor;
+}
+.step3 .operation .title{
+	margin-bottom: 0;
+	border: none;
+}
+.step3 .operation li{
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.step3 .operation li:hover{
+	color: @themeColor1;
+}
+.step3 .operation .iconfont{
+	margin-right: 6px;
+}
+.step3 .personlist{
+	padding: 10px 0;
+}
+.step3 .personlist .icon-close{
+	display: none;
+}
+.step3 .favoree{
+	padding: 30px 0 45px;
+}
+.step3 .favoree button{
+	margin-left: 40px;
+	cursor: pointer;
+}
+.step3 .person .btn-choose{
+	margin-left: 15px;
+	color: #999;
+}
+.step3 .person .btn-choose .iconfont{
+	margin-right: 10px;
+	font-size: 30px;
+    vertical-align: middle;
+}
+.favoree .iconfont{
+	display: inline-block;
+	position: relative;
+	color: #ccc;
+	cursor: pointer;
+}
+.favoree .iconfont:hover .tip{
+	display: block;
+	color: #333;
+}
+.favoree .iconfont .tip{
+	display: none;
+	position: absolute;
+    border: 1px solid @themeColor22;
+    border-radius: 2px;
+    width: 513px;
+    height: 113px;
+    left: 25px;
+    top: -76px;
+    padding: 10px;
+    line-height: 28px;
+    font-size: 14px;
+    background: @themeColor22;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.05);
+}
+.favoree .iconfont .tip:after{
+	content: "";
+	position: absolute;
+    left: -10px;
+    top: 68px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid @themeColor22;
+}
+
+/*确认并支付*/
+.step4 .situation1,
+.step4 .situation2,
+.step4 .situation3{
+	display: none;
+}
+.step4 th {
+	border-collapse: collapse;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	text-align: left;
+}
+
+.step4 td,
+.step4 .payment>div {
+	background: #fff;
+}
+
+.step4 .payment-img {
+	width: 60px;
+	margin-left: 30px;
+}
+.step4 .rights{
+	position: relative;
+	cursor: pointer;
+}
+.step4 .rights:hover .tip{
+	display: block;
+}
+.step4 .tip{
+	display: none;
+	position: absolute;
+	left: -67px;
+    top: 28px;
+	border: 1px solid @themeColor22;
+    border-radius: 2px;
+    padding: 10px;
+    line-height: 28px;
+    font-size: 14px;
+    background: @themeColor22;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.05);
+}
+.step4 .tip>li>span{
+	display: inline-block;
+	width: 200px;
+}
+.step4 .tip:after{
+	content: "";
+	position: absolute;
+    left: 83px;
+    top: -11px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid @themeColor22;
+    border-right: 10px solid transparent;
+}
+.step4 .payment tr {
+	height: 116px;
+}
+
+.step4 .table-head {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 0;
+}
+
+.step4 .table-head span {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.step4 .col1{
+	width: 150px;
+}
+
+.step4 .col2{
+	width: 300px;
+}
+
+.step4 .col3{
+	width: 300px;
+}
+
+.step4 .col4{
+	width: 230px;
+}
+
+.step4 .col5{
+	width: 200px;
+}
+
+.step4 table td {
+	padding-top: 40px;
+	line-height: 18px;
+	color: #666;
+	vertical-align: top;
+}
+
+.step4 .payment-way {
+	margin: 20px 0 30px;
+	box-sizing: border-box;
+	color: #333;
+}
+
+.step4 .payment-way-selection {
+	padding: 0 50px 0 30px;
+	line-height: 60px;
+}
+
+.step4 .iconfont,
+.step4 .icon{
+	margin-right: 15px;
+}
+
+.step4 .payment-way-selection label {
+	margin-left: 20px;
+}
+
+.step4 .payment-compute {
+	margin-bottom: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.step4 .payment-compute-name {
+	vertical-align: top;
+}
+
+.step4 .payment-compute-price {
+    margin: 0 10px;
+	font-size: 36px;
+	color: @themeColor1;
+}
+
+.step4 .payment-compute-unit {
+	color: @themeColor1;
+	vertical-align: top;
+}
+
+.step4 .payment-compute .btn {
+	margin-left: 30px;
+	background: @themeColor1;
+	color: #fff;
+}
+
+
+/*支付方式*/
+
+.step4 .payment-way-bankcard {
+	padding: 30px;
+	border-top: 2px solid @borderColor;
+	background: #fff;
+}
+
+.step4 .payment-way-bankcard li {
+	float: left;
+	margin-right: 30px;
+}
+
+.step4 .bankcard-list {
+	margin:20px 0 70px;
+}
+.step4 .bankcard-list .iconfont{
+	vertical-align: super;
+}
+
+.step4 .bankcard-list input,
+.step4 .bankcard-list .bankcard-id {
+	vertical-align: super;
+}
+
+.step4 .bankcard-list .bankcard-id {
+	margin-left: 10px;
+}
+
+.step4 .bankcard-img {
+	display: inline-block;
+	width: 110px;
+	height: 26px;
+}
+.step4 .payment-way-other>div {
+	float: left;
+}
+.step4 .payment-way-other label>span{
+	cursor: pointer;
+}
+.step4 .payment-way-other .tips{
+	display: none;
+}
+.step4 .payment-way-other input,
+.step4 .payment-way-other div {
+	margin-left: 30px;
+}
+.step4 .btn-addcard{
+	cursor: pointer;
+}
+
+/*暂无银行卡*/
+
+.step4 .payment-way-without {
+	text-align: center;
+}
+
+.step4 .without-img {
+	margin: 30px auto 14px;
+	width: 60px;
+	height: 60px;
+}
+
+.step4 .without-text {
+	font-size: 16px;
+}
+
+.step4 .payment-way-without .btn-addcard {
+	margin: 20px 0 70px;
+	font-weight: bold;
+}
+
+.step4 .addcard {
+	cursor: pointer;
+}
+
+
+/*绑定银行卡*/
+
+.step4 .payment-way-binding select {
+	padding-left: 15px;
+	margin-right: 20px;
+	width: 117px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid @borderColor;
+}
+
+.step4 .payment-way-binding input {
+	width: 432px;
+	border: 1px solid @borderColor;
+}
+
+.popup-addcard .popup-wrapper{
+	width: 450px;
+    height: 455px;
+    top: 50%;
+    margin-top: -230px;
+    margin-left: -225px;
+}
+.popup-addcard .popup-content{
+	padding: 40px 30px 10px;
+}
+.popup-addcard .popup-content>li{
+	margin-bottom: 25px;
+}
+.popup-addcard .name{
+	display: inline-block;
+	width: 100px;
+	color: #666;
+}
+.popup-addcard input{
+	width: 250px;
+}
+.popup-addcard .popup-content-code{
+	position: relative;
+}
+.popup-addcard .popup-content-code .btn{
+	position: absolute;
+    right: 4px;
+    top: 0;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+}
+/*确认保单信息*/
+.step5 .person{
+	margin-bottom: 30px;
+}
+.step5 .buttonbox{
+	text-align: center;
+}
+.step5 .btn{
+	margin-right: 15px;
+}
+.step5 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.step5 .content-table-detail {
+    width: 100%;
+    font-size: 14px;
+}
+.step5 .content-table-detail tr {
+    border: 1px @themeBorder solid;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+.step5 .content-table-detail th {
+    width: 200px;
+    color: #666;
+    background: @themeBorder;
+    text-align: center;
+}
+.step5 .content-table-detail td{
+	padding: 0 20px;
+}
+.step5 input[readonly=readonly]{
+	border: none;
+}
+.step5 .price{
+	font-size: 22px;
+	color: @themeColor1;
+}
+
+
+

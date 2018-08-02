@@ -1,0 +1,83 @@
+/*侧边栏*/
+.aside{
+    width: 35px;
+    height: 2252px;
+    position: fixed;
+    right: 0;
+    top:0;
+    background-color: #333333;
+}
+
+.aside .aside-top{
+    height: 145px;
+    width: 50px;
+}
+.aside ul{
+    width: 35px;
+}
+
+.aside .aside-main{
+    font-size: 14px;
+    color: white;
+}
+.aside .aside-main .aside-gift-img{
+    width: 24px;
+    height: 24px;
+}
+.aside .aside-main ul li{
+    padding: 20px 0 10px 0;
+    width: 26px;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+.aside .aside-main ul li img{
+    width: 16px;
+    height: 16px;
+}
+.aside .aside-main ul li span{
+    display: block;
+    padding: 10px 0 5px 0;
+    line-height: 1.0em;
+    font-weight: 100;
+}
+
+
+.aside .aside-bottom ul li{
+    font-size: 14px;
+    color: white;
+    width: 26px;
+    margin: auto;
+}
+.aside .aside-bottom ul li img{
+    margin: 20px 0 10px 0;
+    width: 16px;
+    height: 16px;
+}
+.aside .aside-bottom ul li span{
+    display: block;
+    line-height: 1.0em;
+    font-weight: 100;
+}
+.aside ul li abbr{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    background: url("/image/aside/main_round.png");
+}
+.aside .aside-bottom .aside-contrast{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.aside .aside-footer ul{
+    position: fixed;
+    bottom: 0px;
+}
+
+.aside .aside-footer ul li img{
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+}

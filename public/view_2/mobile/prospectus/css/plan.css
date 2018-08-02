@@ -1,0 +1,206 @@
+.plan-header {
+  position: relative;
+}
+.plan-header .plan-img {
+  width: 100%;
+}
+.plan-header .company {
+  position: absolute;
+  top: 1.2rem;
+  right: 0;
+  padding: .1rem;
+  padding-left: .2rem;
+  background: #fff;
+  border-radius: 15px 0 0 15px;
+}
+.plan-header .company img {
+  max-width: .8rem;
+}
+.plan-user {
+  position: absolute;
+  left: 50%;
+  top: 2rem;
+  padding: .6rem .2rem 0;
+  width: 80%;
+  height: 3.56rem;
+  background: url(../img/introduce-bg.png) no-repeat;
+  background-size: 100% 100%;
+  transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.plan-user .info {
+  line-height: .6rem;
+  font-size: .28rem;
+  color: #00a2ff;
+  border-bottom: 1px solid #00a2ff;
+}
+.plan-user .details {
+  overflow: hidden;
+}
+.plan-user .details li {
+  float: left;
+  padding: .1rem 0;
+  width: 50%;
+  line-height: 1.6;
+  font-size: .24rem;
+  color: #adadad;
+  text-align: center;
+}
+.plan-user .details span {
+  font-size: .28rem;
+}
+.plan-user .details i {
+  color: #ffae00;
+}
+.plan-container {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(-180deg), color-stop(0.5, #00a3ff), to(#00e9e7));
+  background-image: -webkit-linear-gradient(-180deg, #00a3ff, #00e9e7);
+  background-image: -moz-linear-gradient(-180deg, #00a3ff, #00e9e7);
+  background-image: -o-linear-gradient(-180deg, #00a3ff, #00e9e7);
+  background-image: linear-gradient(-180deg, #00a3ff, #00e9e7);
+}
+.plan-container .section {
+  margin: .2rem;
+  padding: .2rem;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.plan-container .section .title {
+  margin-bottom: .1rem;
+  font-size: .24rem;
+}
+.plan-container .section .title .iconfont {
+  margin-right: .1rem;
+  color: #00a2ff;
+}
+.plan-container .zbtn-default {
+  display: block;
+  margin: .4rem auto;
+  width: 2.3rem;
+  height: .7rem;
+  line-height: .7rem;
+}
+.list {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.list li {
+  position: relative;
+  margin-bottom: .16rem;
+  background: #fff;
+  text-align: center;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.list li:last-child {
+  margin-bottom: 0;
+}
+.section-rights p {
+  line-height: 1.6;
+}
+.section-rights span {
+  margin-right: .4rem;
+}
+.section-rights li:first-child {
+  padding: .28rem;
+  text-align: left;
+}
+.section-rights li:last-child {
+  height: .6rem;
+  line-height: .6rem;
+}
+.section-variety li,
+.section-points li {
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+}
+.zicon-main {
+  background: url(../img/zhu.png);
+}
+.zicon-minor {
+  background: url(../img/fu.png);
+}
+.zicon-main,
+.zicon-minor {
+  display: inline-block;
+  width: .38rem;
+  height: .32rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 100% 100%;
+}
+.plan-bottom {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  height: 1rem;
+  padding: 0 .2rem;
+  line-height: 1rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+}
+.plan-bottom .user-header {
+  float: left;
+  margin-top: .14rem;
+  margin-right: .12rem;
+  width: .68rem;
+  height: .68rem;
+}
+.plan-bottom .tel {
+  margin-left: .2rem;
+  color: #ffae00;
+}
+.plan-bottom .zbtn {
+  margin-left: .2rem;
+  width: 1.46rem;
+  height: .8rem;
+  line-height: .8rem;
+}
+.popover-info {
+  width: 6.24rem;
+}
+.popover-wrapper {
+  background: #fff;
+}
+.popover-wrapper .title {
+  padding: 0 .2rem;
+  width: 100%;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .28rem;
+  color: #fff;
+  background: #00a2ff;
+}
+.popover-wrapper .title .iconfont {
+  float: right;
+}
+.popover-wrapper li:last-child {
+  border-bottom: 1px solid #adadad;
+}
+.popover-wrapper .popover-content {
+  padding-bottom: .4rem;
+}
+.popover-wrapper .popover-content .zbtn-default {
+  display: block;
+  margin: .2rem auto;
+}

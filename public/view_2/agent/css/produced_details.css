@@ -1,0 +1,207 @@
+.main-wrapper {
+  margin-bottom: 0;
+}
+.content {
+  position: relative;
+  background: url(../img/plan-bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+.content .name {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+.merchant {
+  position: absolute;
+  width: 84px;
+  height: 94px;
+  top: -12px;
+  right: 50px;
+  background: url(../img/ladel.png);
+}
+.merchant img {
+  margin: 24px 18px;
+  width: 52px;
+}
+.table-wrapper {
+  width: 840px;
+  padding: 20px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.8);
+}
+.table-wrapper .table-header {
+  margin-bottom: 4px;
+}
+.table-wrapper .table-header .iconfont {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #00a2ff;
+}
+table {
+  text-align: left;
+  border-radius: 4px;
+  overflow: hidden;
+}
+table td {
+  padding: 0 16px;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  background: #fff;
+  vertical-align: middle;
+  border-bottom: none;
+}
+.rights {
+  margin-bottom: 4px;
+}
+.rights td:first-child {
+  width: 124px;
+}
+.rights td:nth-child(2) {
+  width: 140px;
+}
+.variety {
+  border: none;
+  border-collapse: initial;
+}
+.variety td {
+  width: 50%;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.variety .zicon-main,
+.variety .zicon-minor {
+  display: inline-block;
+  width: 38px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.variety .zicon-main {
+  background: url(../img/zhu.png);
+}
+.variety .zicon-minor {
+  background: url(../img/fu.png);
+}
+.selling {
+  margin-top: 30px;
+}
+.information-wrapper {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  color: #b3b3b3;
+}
+.information {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 76px 0 100px 180px;
+}
+.information i {
+  font-size: 16px;
+  font-weight: bold;
+}
+.information .user-img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 26px rgba(0, 0, 0, 0.2);
+}
+.information .user-name {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #313131;
+}
+.information .user-grade {
+  margin-left: 10px;
+  color: #313131;
+}
+.information .tel {
+  margin: 20px 0;
+}
+.information .evaluate > span {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 0 10px;
+  height: 24px;
+  line-height: 24px;
+  color: #00a2ff;
+  border: 1px solid #00a2ff;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.information .user-operate {
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.information .user-operate .z-btn,
+.information .user-operate .z-btn-hollow {
+  margin-right: 60px;
+  width: 160px;
+}
+.popups-way .popups-content {
+  text-align: center;
+}
+.popups-way ul {
+  display: inline-block;
+}
+.popups-way ul li {
+  float: left;
+  margin: 76px;
+  font-size: 16px;
+}
+.popups-way ul li .way-item {
+  margin-bottom: 54px;
+  text-align: center;
+}
+.popups-way ul li .iconfont {
+  font-size: 110px;
+  color: #00a2ff;
+  cursor: pointer;
+}
+.popups-way .way-email {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 60px 0 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.popups-way .way-email input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 360px;
+  text-align: center;
+}
+.popups-way .way-email .z-btn-positive {
+  width: 110px;
+  height: 50px;
+  line-height: 50px;
+}
+.popups-status .popups-content {
+  padding: 80px 0;
+  text-align: center;
+}
+.popups-status .popups-content .z-btn {
+  margin: 0 20px;
+  width: 212px;
+  height: 60px;
+  line-height: 60px;
+}

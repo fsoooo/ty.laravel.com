@@ -1,0 +1,67 @@
+.form-wrapper .zbtn {
+  float: left;
+  margin-top: .16rem;
+  margin-right: .2rem;
+  height: .7rem;
+  line-height: .7rem;
+  width: 2.3rem;
+}
+.form-wrapper .zbtn.center {
+  float: initial;
+  margin: .4rem auto;
+  margin-bottom: 2rem;
+}
+.form-wrapper .zbtn-hollow {
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+.form-wrapper .zbtn-hollow .iconfont {
+  vertical-align: inherit;
+}
+.points li:last-child {
+  border-bottom: 1px solid #adadad;
+}
+.zbtn-select {
+  width: .9rem;
+  height: .6rem;
+  line-height: .6rem;
+}
+.import-client,
+.import-product {
+  display: none;
+}
+.import-client li,
+.import-product li {
+  border-bottom: none;
+}
+.import-client li input,
+.import-product li input {
+  width: 40%;
+}
+.import-client li .zbtn-hollow,
+.import-product li .zbtn-hollow {
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+.import-client li .zbtn,
+.import-product li .zbtn {
+  width: 2.3rem;
+  height: .7rem;
+  position: absolute;
+  right: 0;
+}
+.points .added {
+  width: 88%;
+}
+.points .iconfont {
+  display: none;
+}
+.feedback input[readonly] {
+  color: #adadad;
+}
+.feedback li {
+  border-bottom: none;
+}
+.feedback li:last-child {
+  height: 2rem;
+}

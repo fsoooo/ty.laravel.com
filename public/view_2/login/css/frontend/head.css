@@ -1,0 +1,159 @@
+/*头部样式*/
+.head{
+    width: 1280px;
+    height: 130px;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/*头部导航开始*/
+.nav{
+    font-size: 12px;
+}
+.nav ul{
+    float: right;
+    margin-right: 40px;
+}
+.nav ul li{
+    float: left;
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #ccc;
+}
+.nav ul li:nth-child(8),.nav ul li:nth-child(7){
+    border-right: 0px solid #ccc;
+}
+.nav ul li a{
+
+}
+.nav .hello{
+    color: #E5E5E5;
+}
+.nav .register{
+    color:#768CBD;
+}
+.nav .service{
+    color: #999999;
+}
+.nav .nav-phone{
+    color: #fecd70;
+}
+/*头部导航结束*/
+
+.head-bottom-left{
+    float: left;
+}
+
+/*//logo*/
+.logo{
+    border: 1px solid #000;
+    width: 120px;
+    height: 75px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 25px;
+}
+/*logo结束*/
+
+/*分类开始*/
+
+.head-classify{
+    /*border: 1px solid #000;*/
+    font-size: 16px;
+    float: left;
+    position: absolute;
+    bottom: 25px;
+    left: 170px;
+}
+.head-classify ul{
+    margin-left: 26px;
+    /*border: 1px solid #000;*/
+}
+.head-classify ul li{
+    float: left;
+    margin-left: 24px;
+}
+
+/*//分类结束*/
+
+
+/*//右侧搜索，购物车，个人中心*/
+
+.head-bottom-right{
+    float: right;
+    position: absolute;
+    right: 50px;
+    bottom: 18px;
+}
+.search{
+    float: left;
+    height: 36px;
+    margin-right: 30px;
+}
+.search .head-search-block{
+    line-height: 36px;
+    height: 36px;
+    width: 214px;
+    font-size: 16px;
+    padding-left: 5px;
+    float: left;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.search .head-search-btn{
+    background-color: black;
+    outline: none;
+    height: 36px;
+    width: 36px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+
+
+.shopping{
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.shopping img,.center img{
+    display: inline-block;
+    width: 22px;
+    margin-top: 3px;
+    margin-right: 6px;
+    vertical-align: bottom;
+
+}
+.center img{
+    height: 24px;
+    margin-left: 5px;
+
+}
+.shopping span,.center span{
+    margin-right: 10px;
+    vertical-align: bottom;
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+
+}
+
+.center{
+    height: 32px;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+
+
+/*//头部step，投保流程*/
+.
+
+
+
+/*头部step,投保流程*/
+
+

@@ -1,0 +1,155 @@
+.content-wrapper .content {
+  padding: 40px 0;
+}
+.section {
+  position: relative;
+}
+.section .search {
+  margin: 0 0 30px 50px;
+}
+.section thead {
+  position: fixed;
+}
+.section select {
+  margin: 0 16px 30px 0;
+}
+.section .table-wrapper {
+  width: 810px;
+  height: 234px;
+}
+.section .table-header {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+.section .table-header li {
+  height: 30px;
+  line-height: 30px;
+}
+.section .table-body {
+  position: relative;
+  height: 200px;
+  border: 1px solid #ddd;
+}
+.section .table-body li {
+  height: 50px;
+  line-height: 50px;
+}
+.section .table-body li:hover {
+  background: #f2faff;
+}
+.table-header .col1,
+.table-body .col1 {
+  width: 20px;
+  height: 50px;
+}
+.table-header .col1 label,
+.table-body .col1 label {
+  position: absolute;
+  left: 0;
+  width: 36px;
+  height: 50px;
+  cursor: pointer;
+}
+.table-header .col8,
+.table-body .col8 {
+  padding-right: 20px;
+}
+#client .col2 {
+  width: 80px;
+}
+#client .col3 {
+  width: 40px;
+}
+#client .col4 {
+  width: 86px;
+}
+#client .col5 {
+  width: 118px;
+}
+#client .col6 {
+  width: 160px;
+}
+#client .col7 {
+  width: 120px;
+}
+#client .col8 {
+  width: 164px;
+}
+#product .col2 {
+  width: 80px;
+}
+#product .col3 {
+  width: 140px;
+}
+#product .col4 {
+  width: 86px;
+}
+#product .col5 {
+  width: 154px;
+}
+#product .col6 {
+  width: 160px;
+}
+#product .col7 {
+  width: 100px;
+}
+#product .col8 {
+  width: 48px;
+}
+.section-title {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 16px;
+  background: #00a2ff;
+  font-weight: bold;
+}
+.section-container {
+  padding: 30px 54px 40px;
+}
+.section-container .z-btn-hollow {
+  position: absolute;
+  top: 200px;
+  right: 104px;
+  width: 80px;
+  line-height: 30px;
+  padding: 62px 0;
+  color: #00a2ff;
+  border-color: #00a2ff;
+}
+.z-btn-default {
+  float: right;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+}
+.points-wrapper {
+  width: 100%;
+}
+.points-wrapper .points {
+  margin-left: 20px;
+  width: 726px;
+  height: 40px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+}
+.popups-confirm input {
+  display: block;
+  margin: 70px auto;
+  width: 460px;
+}
+.popups-confirm .z-btn-positive {
+  display: block;
+  margin: 0 auto 30px;
+  width: 124px;
+}
+#create {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}

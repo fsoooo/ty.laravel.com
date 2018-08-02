@@ -1,0 +1,325 @@
+.product-wrapper {
+  padding: 0;
+}
+.product-wrapper li {
+  padding: .2rem;
+  border-bottom: none;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
+}
+.product-wrapper li .product-right {
+  top: 0.2rem;
+  right: .2rem;
+}
+.product-wrapper .score {
+  margin-left: .2rem;
+  color: #ffae00;
+}
+.product-wrapper .info span {
+  margin-right: .1rem;
+}
+.product-wrapper .products-label {
+  position: absolute;
+  top: .1rem;
+  left: 0;
+  width: .9rem;
+  height: .5rem;
+  line-height: .4rem;
+  background: #fff;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.product-wrapper .products-label img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 76%;
+  height: auto;
+}
+.mui-indexed-list-search {
+  margin: 0;
+  height: .6rem;
+  line-height: .6rem;
+  text-align: center;
+}
+.filtrate-wrapper .more {
+  float: right;
+  color: #999;
+}
+.filtrate-wrapper .more .iconfont {
+  color: #999;
+}
+.filtrate-wrapper .zbtn-select {
+  width: 1.8rem;
+  margin-bottom: .1rem;
+}
+/********************产品列表页面********************/
+.popover-search {
+  width: 80%;
+  height: 76%;
+  background: #fff;
+}
+.popover-search-top {
+  padding: .3rem;
+  padding-right: 0;
+}
+.popover-search-top .search {
+  width: 85%;
+}
+.popover-search-top input {
+  font-size: .2rem;
+  background: #f4f4f4;
+  border: none;
+  text-align: left;
+}
+.popover-search-top .zbtn {
+  width: 13%;
+  color: #adadad;
+}
+.popover-search-wrapper {
+  padding: 0 .2rem;
+}
+.popover-search-wrapper .title {
+  padding: .1rem;
+  font-size: .22rem;
+  color: #adadad;
+}
+.popover-search-wrapper .zbtn {
+  background: #d8d7d9;
+  color: #313131;
+  width: auto;
+  padding: 0 .2rem;
+}
+.popover-search-wrapper img {
+  width: 100%;
+}
+.popover-search-wrapper .mui-scroll-wrapper {
+  top: 1.3rem;
+}
+/********************产品详情页面********************/
+.mui-segmented-control {
+  border-bottom: 1px solid #dcdcdc;
+}
+/*图表区域*/
+.header-wrapper {
+  top: .88rem;
+  position: relative;
+  z-index: 10;
+}
+.header-wrapper .company {
+  position: absolute;
+  top: .4rem;
+  right: 0;
+  z-index: 10;
+  padding: .1rem;
+  padding-left: .2rem;
+  background: #fff;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.header-wrapper .company img {
+  max-width: .8rem;
+}
+.header-wrapper .datas-wrapper {
+  position: relative;
+  width: 100%;
+}
+.header-wrapper .datas {
+  position: absolute;
+  left: 50%;
+  padding: .2rem;
+  width: 90%;
+  height: 4rem;
+  background: #fff;
+  box-shadow: 0 1px 20px 6px rgba(0, 194, 255, 0.2);
+  transform: translate(-50%, -4.3rem);
+  -ms-transform: translate(-50%, -4.3rem);
+  -moz-transform: translate(-50%, -4.3rem);
+  -webkit-transform: translate(-50%, -4.3rem);
+  -o-transform: translate(-50%, -4.3rem);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.header-wrapper .bg1 {
+  width: 100%;
+  height: 2.5rem;
+  background: #00a2ff;
+}
+.header-wrapper .bg2 {
+  width: 100%;
+  height: 2rem;
+  background: #f4f4f4;
+}
+.outer-nav {
+  top: 5.4rem;
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+}
+.outer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  padding-top: 6.4rem;
+}
+.outer .mui-scroll-wrapper {
+  bottom: 1rem;
+}
+.outer .mui-control-content {
+  height: 100%;
+}
+/*保障权益浮层*/
+.noticePopover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0;
+}
+.noticePopover .icon-guanbi {
+  position: fixed;
+  top: .6rem;
+  right: .6rem;
+  font-size: .4rem;
+  color: #dcdcdc;
+}
+.notice-wrapper {
+  position: relative;
+  margin: 1.4rem auto;
+  width: 6.2rem;
+  height: 8rem;
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+}
+.notice-title {
+  height: .7rem;
+  line-height: .7rem;
+  font-size: .32rem;
+  background: #00a2ff;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.notice-content {
+  height: 8.5rem;
+}
+.noticePopover .mui-scroll-wrapper {
+  background: #fff;
+  top: .7rem;
+  margin: 0;
+  border-radius: 0;
+  bottom: 0;
+}
+.notice-list {
+  padding: .4rem;
+}
+.mui-control-details .name {
+  width: 35%!important;
+}
+.mui-control-details .title {
+  background: #fff;
+  border-bottom: 1px solid #dcdcdc;
+}
+.info-wrapper {
+  padding: 0 .2rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.info-wrapper .look-rank {
+  float: right;
+  margin-top: .3rem;
+}
+.info-wrapper .look-rank .iconfont {
+  color: #adadad;
+}
+.info-wrapper .info-rank {
+  color: #adadad;
+}
+.info-wrapper .info-rank .total {
+  color: #333;
+}
+.info-wrapper .score {
+  font-size: .38rem;
+  color: #ffae00;
+}
+.info-wrapper .gold {
+  display: inline-block;
+  width: .5rem;
+  height: .6rem;
+  line-height: .5rem;
+  background: url(../img/gold.png) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #ffae00;
+  vertical-align: text-bottom;
+}
+/*产品评价*/
+.mui-control-evaluate .label-wrapper {
+  padding: .2rem;
+}
+.mui-control-evaluate .zbtn-select {
+  color: #dcdcdc;
+}
+.mui-control-evaluate .zbtn-select.high {
+  color: #00a2ff;
+  border-color: #dcdcdc;
+}
+.mui-control-evaluate .evaluate-list {
+  padding: 0 .2rem;
+}
+.mui-control-evaluate .evaluate-list li {
+  padding: .1rem 0;
+  border-top: 1px solid #dcdcdc;
+  overflow: hidden;
+}
+.mui-control-evaluate .evaluate-list .iconfont {
+  font-size: .1rem;
+}
+.mui-control-evaluate .avator {
+  width: .6rem;
+  height: .6rem;
+  margin-bottom: .2rem;
+  overflow: hidden;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.mui-control-evaluate .evaluate-user {
+  float: left;
+  padding: 0 .2rem;
+  color: #adadad;
+  text-align: center;
+}
+.mui-control-evaluate .evaluate-info {
+  float: right;
+  width: 84%;
+}
+.mui-control-evaluate .evaluate-info .date {
+  float: right;
+  font-size: .2rem;
+  color: #adadad;
+}
+.mui-control-evaluate .evaluate-info .rank {
+  margin-bottom: .1rem;
+}
+.mui-control-evaluate .evaluate-info .text {
+  padding-left: 1rem;
+}
+.mui-control-evaluate .score {
+  color: #ffae00;
+}
+.weixin .header-wrapper {
+  top: 0;
+}
+.weixin .outer-nav {
+  top: 4.4rem;
+}
+.weixin .outer {
+  padding-top: 5.2rem;
+}

@@ -1,0 +1,160 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../img/225.png) no-repeat;
+  background-size: 100% 100%;
+}
+.login-wrapper {
+  width: 1100px;
+  height: 557px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.login-left {
+  position: relative;
+  top: 78px;
+  padding: 30px 40px;
+  width: 490px;
+  height: 340px;
+  border-radius: 40px 0 0 40px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.login-left .logo {
+  margin-bottom: 40px;
+  padding: 10px;
+  width: 104px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.login-left .info {
+  font-size: 18px;
+  line-height: 32px;
+  text-indent: 2em;
+  color: #fff;
+}
+.login-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 40px 50px;
+  width: 433px;
+  height: 477px;
+  background: #fff;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.login-right .title {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #00a2ff;
+}
+.login-right .title .iconfont {
+  margin-right: 10px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+.login-right .form-wrapper li {
+  position: relative;
+  margin-bottom: 16px;
+}
+.login-right .form-wrapper .name {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.login-right .form-wrapper input {
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.login-right .form-wrapper input.password {
+  color: #ddd;
+  font-size: 30px;
+}
+.login-right .form-wrapper .z-btn {
+  width: 124px;
+  height: 38px;
+  line-height: 38px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.login-right .btn-forget {
+  float: right;
+  color: #00a2ff;
+}
+.login-right .z-btn-default {
+  display: block;
+  margin: 0 auto;
+  width: 320px;
+}
+/*滑动解锁*/
+.pattern {
+  height: 38px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+.forget-password .form-wrapper .error-tips,
+.change-password .form-wrapper .error-tips {
+  margin-top: 10px;
+  height: 20px;
+  color: #f00;
+  text-align: right;
+}
+.forget-password > .z-btn,
+.change-password > .z-btn {
+  margin-top: 100px;
+}
+.forget-password > .z-btn.disabled,
+.change-password > .z-btn.disabled {
+  color: #fff;
+  background: #D8D7D9;
+  opacity: 1;
+}
+/*忘记密码*/
+.forget-password .form-wrapper .z-btn.disabled {
+  border: 1px solid #ffae00;
+  color: #ffae00;
+  background: none;
+  opacity: 1;
+}
+/*设置密码*/
+.change-password .success-tips {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background: #999;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: translate(-50%, 280px);
+  -ms-transform: translate(-50%, 280px);
+  -moz-transform: translate(-50%, 280px);
+  -webkit-transform: translate(-50%, 280px);
+  -o-transform: translate(-50%, 280px);
+}

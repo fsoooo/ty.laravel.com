@@ -1,0 +1,68 @@
+.default-div {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.title {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.logo-default {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+input {
+  padding: 0 10px;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #374068;
+}
+.default-div ul {
+  overflow: hidden;
+}
+.default-div li {
+  margin-bottom: 10px;
+}
+select {
+  background: transparent;
+}
+.form-control {
+  display: inline-block;
+  width: 100px;
+  border: 1px solid #374068!important;
+}
+.name {
+  display: inline-block;
+  min-width: 120px;
+  text-align: right;
+}
+.w-e-text-container {
+  color: #313131;
+  background: #f1f1f1;
+}
+.img-wrapper {
+  position: relative;
+  margin: 10px 0;
+  margin-right: -10px;
+}
+.img-wrapper li {
+  display: inline-block;
+  margin-right: 8px;
+  width: 160px;
+  height: 160px;
+}
+.img-wrapper .img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+}

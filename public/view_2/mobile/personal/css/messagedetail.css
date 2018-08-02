@@ -1,0 +1,30 @@
+/*时间div的样式*/
+.main .mui-content .lineinfo{
+	height: 0.48rem;
+	background: #f4f4f4;
+	text-align: center;
+	line-height: 0.48rem;
+	font-size: 0.24rem;
+}
+.main .mui-content .lineinfo i{
+	color: #e4e4e4;
+}
+/*内容div的样式*/
+.main .mui-content .contentinfo{
+	height: 1.76rem;
+	background: #fff;
+	padding:.28rem ;
+}
+.main .mui-content .contentinfo>span:nth-child(1){
+	font-size: .28rem;
+	color: #313131;
+}
+.main .mui-content .contentinfo .content-s{
+	margin-top: .28rem;
+	font-size: .24rem;
+	color: #959595;				
+}
+.main .mui-content .contentinfo .content-s p{
+	font-size: .24rem;	
+	line-height: .3rem;	
+}

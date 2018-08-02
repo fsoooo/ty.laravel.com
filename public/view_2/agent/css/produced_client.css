@@ -1,0 +1,57 @@
+.header-wrapper .header,
+.main-wrapper {
+  width: 1100px;
+}
+.information-wrapper .information {
+  padding-left: 0;
+}
+.popups-feedback .feedback {
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.popups-feedback .name {
+  display: inline-block;
+  width: 120px;
+  vertical-align: top;
+}
+.popups-feedback .satisfaction-wrapper {
+  display: inline-block;
+}
+.popups-feedback li {
+  margin-bottom: 10px;
+}
+.popups-feedback textarea {
+  width: 500px;
+  height: 50px;
+}
+.popups-feedback .z-btn {
+  display: block;
+  margin: 50px auto;
+  width: 160px;
+  font-size: 18px;
+}
+.impress {
+  display: inline-block;
+  width: 570px;
+  font-size: 0;
+}
+.impress span {
+  display: inline-block;
+  margin: 0 16px 16px 0;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+}
+.impress span.selected {
+  color: #00a2ff;
+  border-color: #00a2ff;
+}

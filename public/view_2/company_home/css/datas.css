@@ -1,0 +1,48 @@
+.main-wrapper {
+	background: #fff;
+}
+.datas-wrapper{
+	padding: 20px 30px;
+	background: rgba(0,162,255,.02);
+}
+.datas{
+	margin: 0 auto;
+    width: 760px;
+    height: 360px;
+    padding: 20px 40px;
+    background: #fff;
+    box-shadow: 0 4px 13px 5px rgba(0, 194, 255, 0.2);
+}
+.datas .btn-more{
+	float: right;
+	color: #00a2ff;
+}
+.datas .title{
+	font-size: 16px;
+	font-weight: bold;
+}
+.datas .title span{
+	font-size: 14px;
+	color: #adadad;
+}
+
+.tabel-default button{
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+
+.person-wrapper{
+	padding: 20px 30px;
+}
+.person-wrapper .header{
+	padding: 40px 0 20px;
+	overflow: hidden;
+}
+.person-wrapper .title{
+	margin-top: 24px;
+	font-weight: bold;
+}

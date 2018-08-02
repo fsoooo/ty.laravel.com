@@ -1,0 +1,83 @@
+.form-wrapper ul{
+	padding: .2rem;
+}
+ul.photos-wrapper{
+	padding: .2rem;
+	margin-right: -.74rem;
+}
+.form-wrapper .zbtn{
+	float: initial;
+	margin-top: 0;
+	vertical-align: middle;
+}
+.photos-wrapper li{
+	display: inline-block;
+	margin-right: .74rem;
+	width: 1.8rem;
+	height: 1.4rem;
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.mui-popover {
+    width: 100%;
+}
+.photo-popover .iconfont{
+	padding: .4rem;
+	position: absolute;
+	top: -1rem;
+	right: 0;
+}
+
+.popover-client {
+  width: 80%;
+}
+.popover-client .popover-content {
+  text-align: center;
+  padding: .4rem;
+}
+.popover-client .popover-content .zicon {
+  width: .4rem;
+  height: .4rem;
+}
+.popover-client .popover-content .iconfont {
+  font-size: .4rem;
+}
+.popover-client li {
+  position: relative;
+  margin-bottom: .2rem;
+}
+.popover-client .iconfont-wrapper {
+  position: absolute;
+  left: 1.2rem;
+  top: .1rem;
+  z-index: 10;
+  display: inline-block;
+  width: .68rem;
+  height: .68rem;
+  line-height: .6rem;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: -6px 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #fff;
+}
+.popover-client .text-wrapper {
+  display: inline-block;
+  position: relative;
+  left: .5rem;
+  width: 2.8rem;
+  height: .9rem;
+  line-height: .9rem;
+  text-align: center;
+  color: #ffae00;
+  box-shadow: -4px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.import-client, .import-product {
+    display: block;
+}

@@ -1,0 +1,37 @@
+.main-wrapper .download{
+    			background: #b27900;
+			    border-radius: 4px;
+			    padding: 6px 12px;
+			    font-size: 12px;
+			    float: right;
+			    min-width: 80px;
+			}
+			/*弹层的样式*/
+.modal-content .modal-body .title{
+	display: block;
+	color: #919191;
+	margin-bottom: 5px;
+}
+.modal-content .modal-body .choose{
+	display: block;
+	margin-bottom: 10px;
+}
+.modal-content .modal-body .group-wrapper{
+	border: 1px solid #ccc;
+    margin-top: 3px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.modal-content .modal-body .group-wrapper li{
+	float: left;
+	width: 48%;
+	margin-left: 3px;
+}
+.modal-content .modal-body .group-wrapper li>span{
+	display: inline-block;
+	margin-top: 6px;
+}
+.modal-content .modal-body .group-wrapper li>input{
+	width: 18px;
+	float: right;
+}

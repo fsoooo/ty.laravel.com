@@ -1,0 +1,96 @@
+.header-wrapper {
+  width: 100%;
+  background: url(../img/user-bg.png) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.header-wrapper .header-img {
+  float: left;
+  margin-right: .3rem;
+  width: 1.18rem;
+  height: 1.18rem;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0 0 0px 6px rgba(255, 255, 255, 0.2);
+  background-position: center;
+  background-size: cover;
+}
+.header-wrapper .header-top {
+  position: relative;
+  margin: 0 .28rem;
+  padding-top: 1.3rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid #fff;
+}
+.header-wrapper .header-top .msg {
+  position: absolute;
+  top: .2rem;
+  right: 0;
+  font-size: .48rem;
+}
+.header-wrapper .header-top .status {
+  display: inline-block;
+  margin-top: .3rem;
+  width: 1.2rem;
+  line-height: .32rem;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: .2rem;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.header-wrapper .header-top .icon-xiaoxi,
+.header-wrapper .header-top .icon-gengduo {
+  position: absolute;
+  top: .2rem;
+  right: 0;
+  font-size: .6rem;
+  color: #fff;
+}
+.header-wrapper .header-top .icon-gengduo {
+  top: 1.5rem;
+  font-size: .36rem;
+}
+.header-wrapper .header-bottom {
+  padding: .32rem 0;
+  margin-right: -1px;
+  overflow: hidden;
+}
+.header-wrapper .header-bottom li {
+  float: left;
+  width: 25%;
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+.header-wrapper .header-bottom li .color-positive {
+  font-size: .32rem;
+}
+.user-list {
+  padding: 0 .28rem;
+  background: #fff;
+}
+.user-list li {
+  height: .9rem;
+  line-height: .9rem;
+  font-size: .28rem;
+  border-bottom: 1px solid #d8d7d9;
+}
+.user-list li a {
+  display: block;
+}
+.user-list .icon-gengduo {
+  float: right;
+  color: #adadad;
+}
+.user-list .exit {
+  text-align: center;
+  color: #adadad;
+  border-bottom: none;
+}
+.division {
+  margin-top: -1px;
+}

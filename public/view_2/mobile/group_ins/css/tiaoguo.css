@@ -1,0 +1,87 @@
+.circleProgress_wrapper{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    float: right;
+	margin: -6.5rem -1.3rem 0 .5rem;
+	text-align: center;
+	line-height: .9rem;
+	color: #ccc;
+}
+
+.wrapper{
+    width: .75rem;
+    height: 1.5rem;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.right{
+    right:0;
+}
+.left{
+    left:.01rem;
+}
+.circleProgress{
+    width: .8rem;
+    height: .8rem;
+    border:2px solid #ccf0ff;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    -webkit-transform: rotate(45deg);
+}
+.rightcircle{
+    border-top:2px solid #ccf0ff;
+    border-right:2px solid #ccf0ff;
+    right:.32rem;
+    -webkit-animation: circleProgressLoad_right 5s linear;
+     background: rgba(190,233,251,.2);
+}
+.leftcircle{
+    border-bottom:2px solid #ccf0ff;
+    border-left:2px solid #ccf0ff;
+    left:.32rem;
+    -webkit-animation: circleProgressLoad_left 5s linear;
+    background: rgba(190,233,251,.2);
+}
+@-webkit-keyframes circleProgressLoad_right{
+    0%{
+        border-top:2px solid #dedede;
+        border-right:2px solid #dedede;
+        -webkit-transform: rotate(45deg);
+    }
+    50%{
+        border-top:2px solid #9c9e9f;
+        border-right:2px solid #9c9e9f;
+        border-left:2px solid #ccc;
+        border-bottom:2px solid #ccc;
+        -webkit-transform: rotate(225deg);
+    }
+    100%{
+        border-left:2px solid #ccf0ff;
+        border-bottom:2px solid #ccf0ff;
+        -webkit-transform: rotate(225deg);
+    }
+}
+@-webkit-keyframes circleProgressLoad_left{
+    0%{
+        border-bottom:2px solid #dedede;
+        border-left:2px solid #dedede;
+        -webkit-transform: rotate(45deg);
+    }
+    50%{
+        border-bottom:2px solid #9c9e9f;
+        border-left:2px solid #9c9e9f;
+        border-top:2px solid #ccc;
+        border-right:2px solid #ccc;
+        -webkit-transform: rotate(45deg);
+    }
+    100%{
+        border-top:2px solid #ccf0ff;
+        border-right:2px solid #ccf0ff;
+        border-bottom:2px solid #ccf0ff;
+        border-left:2px solid #ccf0ff;
+        -webkit-transform: rotate(225deg);
+    }
+}

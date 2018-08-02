@@ -1,0 +1,12 @@
+@media (min-width: 1200px) {
+  #details .col-lg-3 {
+    width: 20%;
+  }
+}
+#details .chart-header .form-control {
+  margin-right: 5%!important;
+}
+#details .details-header {
+  margin-bottom: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.company-payment .mui-scroll-wrapper{bottom: 1rem;}
+.company-payment .payment-bank {margin: .3rem;background: #fff;box-shadow: 0 0 20px 1px rgba(0, 162, 255, .1);}
+.company-payment .payment-bank li {position: relative;margin: 0 .54rem;}
+.company-payment .payment-bank li .iconfont {position: absolute;top: 0;right: 0;z-index: 1;height: .9rem;line-height: .9rem;font-size: .36rem;color: #00a2ff;}
+.company-payment .payment-bank input {padding-left: 0;height: .9rem;line-height: .9rem;font-size: .28rem;border: none;border-radius: 0;border-bottom: 1px solid #dcdcdc;}
+.company-payment .btn-payment {margin: .32rem .54rem;width: 1.6rem;height: .62rem;line-height: .62rem;background: #FFAE00;color: #fff;}
+.company-payment .payment-other {padding: 1rem .3rem;width: 100%;bottom: .98rem;}
+.company-payment .payment-other>div {display: inline-block;width: 49%;text-align: center;}
+.company-payment .payment-other>div:first-child {border-right: 1px solid #dcdcdc;}
+.company-payment .payment-other .iconfont {margin-right: .3rem;font-size: .5rem;}
+.company-payment .payment-other span {font-size: .26rem;}
+.company-payment .notice-title{padding: .2rem;height: auto;font-size: .24rem;line-height: 1.6;text-align: left;}
+.company-payment .notice-title span{display: inline-block;width: 20%;}
+.company-payment .list-wrapper{padding: 0 .2rem .2rem;background: #fff;}
+.company-payment .list-wrapper .title {margin-bottom: .16rem;font-size: .16rem;line-height: .6rem;font-weight: bold;border-bottom: 1px solid #dcdcdc;}
+.company-payment .list-wrapper li {margin-bottom: .16rem;}
+.company-payment .list-wrapper span {display: inline-block;width: 24%;color: #b2b2b2;}
+.company-payment .price-wrapper {padding: .2rem;line-height: .4rem;color: #ffae00;background: #fff;}

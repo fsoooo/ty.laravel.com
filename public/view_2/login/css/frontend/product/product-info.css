@@ -1,0 +1,542 @@
+
+/*//主体部分头部开始*/
+
+.main .main-top{
+    padding: 10px 50px 0 50px;
+    height: 70px;
+    background: #00a2ff;
+    position: relative;
+}
+
+.main .main-top-block{
+    width: 1280px;
+    margin: auto;
+    position: relative;
+    height: 70px;
+}
+
+.main .main-top-position{
+    width: 1280px;
+    color: #ccecff;
+    margin: auto;
+    font-size: 12px;
+    height: 12px;
+}
+.main .main-top-position a{
+    color: #ccecff;
+}
+
+
+.main .main-top-classify{
+    width: 1280px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+.main .main-top-classify ul{
+    color: white;
+}
+.main .main-top-classify ul li{
+    float: left;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 40px;
+    bottom: 0;
+}
+.choose{
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    border-top: 2px solid #fecd70;
+}
+.no_choose{
+    color: white;
+}
+
+/*、、主体头部部分结束*/
+
+/*主体部分*/
+.main .main-middle{
+    padding: 40px 50px;
+    width: 1180px;
+    margin: auto;
+
+}
+.main .main-middle .main-middle-left{
+    width: 850px;
+    float: left;
+}
+
+.main .main-middle .main-middle-left .product-name{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.main .main-middle .product-classify{
+    margin-bottom: 50px;
+}
+.main .main-middle .product-classify ul li{
+    float: left;
+    width: 200px;
+    box-sizing: border-box;
+    height: 44px;
+    border: 1px solid #c5e9ff;
+    margin-right: 10px;
+    background-color: #f6fcff;
+}
+.main .main-middle .product-classify img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.main .main-middle .product-classify span{
+    display: inline-block;
+    font-size: 14px;
+    height: 44px;
+    font-weight: bolder;
+    line-height: 44px;
+    vertical-align: middle;
+}
+
+
+
+.main .main-middle .product-parameter .choose-parameter{
+    height: 35px;
+    margin-bottom: 15px;
+    line-height: 35px;
+}
+.main .main-middle .product-parameter .parameter-name{
+    float: left;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #666666;
+    width: 100px;
+    text-align: right;
+}
+
+.main .main-middle .product-parameter .parameter-detail{
+    padding-left: 30px;
+    height: 35px;
+    line-height: 25px;
+    float: left;
+}
+.main .main-middle .product-parameter .parameter-detail ul li{
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    width: 60px;
+    margin-right: 10px;
+    border: 1px solid #CCCCCC;
+}
+.main .main-middle .product-parameter .parameter-detail ul li:hover{
+    border: 1px solid #fecd70;
+    cursor: pointer;
+    cursor: hand;
+}
+.main .main-middle .product-parameter .parameter-detail a{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #00a2ff;
+}
+
+.main .main-middle .product-parameter .parameter-detail select{
+    /*float: left;*/
+    width: 75px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+
+}
+.main .main-middle .product-parameter .parameter-detail .price-unit{
+    font-size: 18px;
+    color: #fecd70;
+}
+.main .main-middle .product-parameter .parameter-detail .price-money{
+    font-size: 36px;
+    color: #fecd70;
+}
+
+.main .main-middle .product-parameter .choose-parameter-button{
+    margin-left: 130px;
+}
+.main .main-middle .product-parameter .go{
+    width: 210px;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+.main .main-middle .product-parameter .car{
+    width: 210px;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+.main .main-middle .product-parameter .go{
+    background-color: #fecd70;
+}
+.main .main-middle .product-parameter .car{
+    background-color: #00a2ff;
+}
+
+
+.main .main-middle .product-guarantee{
+    margin-top: 40px;
+}
+.main .main-middle .guarantee-title{
+    font-size: 14px;
+    font-weight:bolder;
+    height: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.main .main-middle .guarantee-list{
+    border: 1px solid rgba(0,162,255,0.3);
+}
+.main .main-middle .guarantee-list:nth-child(0){
+    border-bottom: 0px solid black;
+}
+
+.main .main-middle .guarantee-classify{
+    font-size: 14px;
+    font-weight:bolder;
+    color: #666666;
+    height: 49px;
+    background-color: rgba(0,162,255,0.3);
+    line-height: 49px;
+    padding-left: 15px;
+}
+.main .main-middle .guarantee-content{
+    padding: 15px 50px 15px 30px;
+    line-height: 100%;
+    font-size: 14px;
+    color: #333333;
+    vertical-align: middle;
+}
+.main .main-middle .guarantee-content{
+    border-bottom: 1px solid #EEEEEE;
+}
+.main .main-middle .guarantee-content:last-child{
+    border-bottom: 0px solid #EEEEEE;
+}
+
+
+
+.main .main-middle .guarantee-logo{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    /*vertical-align: middle;*/
+
+}
+.main .main-middle .guarantee-name{
+    display: inline-block;
+    width: 150px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.main .main-middle .guarantee-price{
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px;
+}
+.main .main-middle .guarantee-brief{
+    display: inline-block;
+    vertical-align: middle;
+    width: 406px;
+    line-height: 1.2;
+
+}
+
+
+.main .main-middle .rights{
+    margin-top: 30px;
+}
+.main .main-middle .rights-title{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #666666;
+    margin-bottom: 30px;
+}
+.main .main-middle .rights-detail{
+
+}
+
+
+.main .main-middle .rights-detail .rights-logo{
+    width: 64px;
+    height: 64px;
+    margin: 0 30px 0 10px;
+    float: left;
+}
+.main .main-middle .rights-content{
+    width: 255px;
+    margin-right: 40px;
+    margin-bottom: 30px ;
+    float: left;
+}
+.main .main-middle .rights-content-title{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.main .main-middle .rights-content-content{
+    font-size: 14px;
+    color: #333333;
+}
+
+
+.main .main-middle .inform{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main .main-middle .inform-title{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #666;
+}
+
+.main .main-middle .inform-content{
+
+    height: 800px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #CCCCCC;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.main .main-middle .inform-content .inform-detail .detail-product-explain-inner{
+
+}
+.main .main-middle .inform-content .inform-detail .detail-product-explain-inner img{
+    width: 850px;
+    margin-left: -25px;
+}
+
+.main .main-middle .evaluate{
+    margin-top: 30px;
+}
+.main .main-middle .evaluate-title{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #666666;
+}
+.main .main-middle .evaluate-top{
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+.main .main-middle .evaluate-top .evaluate-rate{
+    width: 264px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.main .main-middle .evaluate-top .evaluate-rate .rate{
+    font-size: 60px;
+    color: #fecd70;
+    /*margin-bottom: 30px;*/
+
+}
+.main .main-middle .evaluate-top .evaluate-rate .rate-describe{
+    color: #666666;
+}
+.main .main-middle .evaluate-top .evaluate-classify{
+    display: inline-block;
+    margin-top: 20px;
+}
+.main .main-middle .evaluate-top .evaluate-release{
+
+}
+
+
+
+.main .main-middle .evaluate-top .evaluate-classify{
+    display: inline-block;
+    width: 418px;
+    vertical-align: middle;
+}
+/*.main .main-middle .evaluate-top .evaluate-classify ul{*/
+
+/*}*/
+.main .main-middle .evaluate-top .evaluate-classify ul li{
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.main .main-middle .evaluate-release{
+    width: 144px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.main .main-middle .evaluate-release button{
+    display: block;
+    width: 125px;
+    font-size: 14px;
+    height: 40px;
+}
+
+
+
+
+.main .main-middle .evaluate-list{
+    margin-top: 40px;
+}
+.main .main-middle .evaluate-list-nav{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #666666;
+}
+.main .main-middle .evaluate-list-nav ul{
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.main .main-middle .evaluate-list-nav ul li{
+    float: left;
+    padding: 15px 33px;
+}
+.evaluate-list-choose{
+    border-bottom: 1px solid black;
+}
+
+.main .main-middle .evaluate-list .evaluate-list-content{
+    padding:25px 0px 20px 35px;
+    border-bottom: 1px dashed #e5e5e5;
+
+}
+
+.main .main-middle .evaluate-list .evaluate-list-content .portrait{
+    height: 64px;
+    width: 64px;
+    float: left;
+}
+.main .main-middle .evaluate-list .evaluate-list-content .evaluate-list-detail{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333333;
+    width: 731px;
+}
+.main .main-middle .evaluate-user .user-name{
+    float: left;
+}
+.main .main-middle .evaluate-user .user-score{
+    float: left;
+}
+.main .main-middle .evaluate-user .user-time{
+    float: left;
+}
+.main .main-middle .evaluate-list  .evaluate-user{
+    margin-bottom: 30px;
+}
+.main .main-middle .evaluate-list .more{
+    margin-top: 20px;
+    float: right;
+}
+
+
+
+
+
+.main .main-middle .main-middle-right{
+    float: right;
+    width: 329px;
+    height: 464px;
+    border-left: 1px solid #ccc;
+}
+.main .main-middle .main-middle-right-top{
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.main .main-middle .main-middle-right-top .sale{
+    display: inline-block;
+    width: 128px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px 0;
+}
+.main .main-middle .main-middle-right-top .satisfied{
+    display: inline-block;
+    width: 129px;
+    border: 1px solid #ccc;
+    border-left: 0px solid black;
+    margin-left: -4px;
+    text-align: center;
+    padding: 15px 0;
+}
+.main .main-middle .main-middle-right-top .name{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.main .main-middle .main-middle-right-top .count{
+    font-size: 14px;
+    color: #333;
+}
+
+.main .main-middle .main-middle-right-evaluate{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.main .main-middle .main-middle-right-evaluate .title{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.main .main-middle .main-middle-right-evaluate .classify p{
+    margin-bottom: 10px;
+    font-size: 14px;
+
+
+}
+.main .main-middle .main-middle-right-evaluate .classify span{
+    height: 18px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    
+}
+
+.main .main-middle-right .main-middle-right-service{
+    margin-top: 40px;
+}
+.main .main-middle-right .main-middle-right-service .title{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.main .main-middle-right .main-middle-right-service .content{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.main .main-middle-right .main-middle-right-service .service-logo{
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main .main-middle-right .main-middle-right-service .service-describe{
+    display: inline-block;
+    margin-left: 6px;
+    width: 240px;
+    vertical-align: middle;
+}
+/*主体部分结束*/

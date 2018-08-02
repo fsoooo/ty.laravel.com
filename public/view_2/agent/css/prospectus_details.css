@@ -1,0 +1,62 @@
+.tabel-info {
+  border: 1px solid #ddd;
+}
+.tabel-info th {
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  background: #00a2ff;
+}
+.tabel-info td {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+.tabel-info td:first-child {
+  width: 200px;
+  background: #f4f4f4;
+}
+.tabel-info td:last-child {
+  padding-right: 200px;
+}
+.tabel-list th {
+  background: #d8d7d9;
+}
+.tabel-list td {
+  height: 55px;
+}
+.pagination-wrapper {
+  margin: 34px 0;
+  overflow: hidden;
+}
+.pagination {
+  float: left;
+  margin: 0;
+  margin-right: 160px;
+}
+.pagination-toolbar {
+  float: left;
+}
+.pagination-toolbar input {
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 0 5px;
+}
+.pagination-toolbar button {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  margin-left: 20px;
+  color: #666;
+  cursor: pointer;
+  border-radius: 0;
+}
+.total-wrapper {
+  float: right;
+  line-height: 36px;
+}

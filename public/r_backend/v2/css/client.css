@@ -1,0 +1,9 @@
+@media (min-width: 1200px) {
+  .section > div {
+    width: 24%;
+  }
+}
+.section .section-item {
+  padding: 60px 50px;
+  height: 160px;
+}

@@ -1,0 +1,222 @@
+body{background: #f7f7f7;}
+.form-wrapper{
+	padding: 0 .2rem;
+	background: #fff;
+}
+a{display: block;}
+/*理赔1： 场景选择*/
+.claim-list{
+	padding: 0 .2rem;
+	background: #fff;
+}
+.claim-list li{
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+.claim-list li:last-child{
+	border-bottom: none;
+}
+.claim-list .iconfont{
+	font-size: .3rem;
+}
+.claim-list .icon-left{
+	margin-right: .4rem;
+	font-size: .4rem;
+	color: #2c527c;
+}
+.claim-list .icon-right{
+	float: right;
+}
+
+/*添加账户*/
+.add-account .form-wrapper {
+	background: #fff;
+}
+.add-account .tips{
+	padding: .2rem;
+	color: #ffae00;
+}
+
+/*选择场景*/
+
+.scene .scene-wrapper{
+	padding: 0 .2rem;
+}
+.scene-list{
+	padding: 0 .2rem;
+}
+.scene .scene-wrapper .title{
+	height: .6rem;
+	line-height: .6rem;
+	color: #adadad;
+	text-align: center;
+}
+.scene-header{
+	padding-bottom: .2rem;
+	margin-bottom: .2rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+.scene-header .status{
+	float: right;
+	color: #00A2FF;
+}
+.scene .scene-list>li{
+	margin-bottom: .2rem;
+	padding: .2rem;
+	background: #fff;
+	border: 4px solid #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.scene .scene-list>li.active{
+	border: 4px solid #ffae00;
+}
+.info-list>li{
+	line-height: 1.6;
+}
+.scene-name{
+	font-size: .3rem;
+	color: #00A2FF;
+	
+}
+.scene-name>span{
+	float: right;
+	color: #606060;
+}
+
+/*申请理赔*/
+.payment .mui-scroll-wrapper{
+	bottom: 1.8rem;
+}
+.payment .section{
+	padding: 0 .2rem;
+	background: #fff;
+}
+.payment .title{
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .28rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.payment .info-list{
+	padding: .2rem 0;
+	color: #313131;
+}
+.payment .info-list>li{
+	line-height: 1.8;
+}
+.payment .info-list .name{
+	display: inline-block;
+	width: 2rem;
+	color: #adadad;
+}
+.payment .way-list{
+	
+}
+.payment .way-list li{
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+.payment .way-list li:last-child{
+	border-bottom: none;
+}
+.payment .way-list .text{
+	display: inline-block;
+}
+.payment .way-list span{
+	margin-left: .2rem;
+}
+.payment .way-list .iconfont{
+	font-size: .4rem;
+}
+.payment .img-list{
+	overflow: hidden;
+	padding: .2rem 0;
+}
+.payment .img-list>li{
+	margin-right: .2rem;
+	margin-bottom: .2rem;
+	float: left;
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.payment .agree{
+	height: .8rem;
+	line-height: .8rem;
+	text-align: center;
+}
+.payment .icon-danxuan{
+	color: #00A2FF;
+}
+.payment .tips{
+	line-height: .6rem;
+	font-size: .2rem;
+	color: #ffae00;
+}
+
+/*选择支付方式*/
+.way-popover .mui-popover{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 8rem;
+	background: #fff;
+	opacity: 1;
+	transform: translateY(8rem);
+	transition: all .6s;
+}
+.way-popover .mui-popover.mui-active{
+	transform: translateY(0rem);
+}
+.way-popover .mui-popover .title{
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .32rem;
+	text-align: center;
+	border-bottom: 1px solid #dbdbdb;
+}
+.way-popover .mui-popover li{
+	padding: 0 .2rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	border-bottom: 1px solid #dbdbdb;
+}
+.way-popover .mui-popover li span{
+	margin-left: .2rem;
+}
+.way-popover .mui-popover li.active .icon-Check{
+	color: #00A2FF;
+}
+.way-popover .mui-popover .icon-left{
+	font-size: .4rem;
+}
+.way-popover .mui-popover .text{
+	display: inline-block;
+}
+label{
+	display: block;
+}
+
+
+
+.photo-popover  {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-height: 60%;
+    background: none;
+    box-shadow: none;
+}
+.photo-popover .iconfont{
+	padding: .4rem;
+	position: absolute;
+	top: -1rem;
+	right: 0;
+	color: #00a2ff;
+    font-size: .36rem;
+}
